@@ -1,0 +1,10 @@
+---
+layout: layouts/base
+---
+
+- collections.note.sort((a, b) => a.data.title.localeCompare(b.data.title))  
+  
+div
+  each note in collections.note
+    li
+      a(href=note.url class="ttl") !{note.data.title}
