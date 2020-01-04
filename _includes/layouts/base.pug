@@ -1,11 +1,7 @@
 doctype html
 html
   head
-    link(rel="stylesheet" href="https://unpkg.com/tachyons@4.10.0/css/tachyons.min.css")
+    link(rel="stylesheet" href="/css/tufte.css")
   body
-    include ../parts/header.pug
-
     block content
-      div(class="fl w-90")
-        h1(class="f1") !{title}
-        div(class="lh-copy measure-wide") !{content}
+      article !{content}

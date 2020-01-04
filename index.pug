@@ -1,24 +1,8 @@
 ---
 layout: layouts/base
 ---
-
--
-  const tags = collections.note.reduce((acc, curr) => {
-    for (const tag of curr.data.tags){
-      if(!acc[tag]) acc[tag] = []
-      acc[tag].push(curr);
-    }
-    return acc
-  }, {})
-  
-  delete tags.note
-- collections.note.sort((a, b) => a.data.title.localeCompare(b.data.title))  
-
-div
-  each notes, tag in tags
-    li !{tag} !{notes}
-
-div
-  each note in collections.note
-    li
-      a(href=note.url class="ttl") !{note.data.title}
+h1 11d.im
+h2 notes
+each note in collections.note
+  li
+    a(href=note.url) !{note.data.title}

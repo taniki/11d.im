@@ -23,4 +23,4 @@ tags:
 > Le bien seul est une fin. Tout ce qui appartient au domaine des faits est de l'ordre des moyens. Mais la pensée collective est incapable de s'élever au-dessus du domaine des faits.  C'est une pensée animale. Elle n'a la notion du bien que juste assez pour commettre l'erreur de prendre tel ou tel moyen pour un bien absolu.
 >
 > Il en est ainsi des partis. Un parti est en principe un instrument pour servir une certaine conception du bien public.
-> <cite>Notes sur la suppression générale des partis politique, Simon Weil (1943)</cite>
+> <footer>Notes sur la suppression générale des partis politique, Simon Weil (1943)</fotter>
