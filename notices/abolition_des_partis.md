@@ -1,7 +1,6 @@
 ---
 title: Notes sur l'abolition des partis politiques
 tags:
-  - note
   - partis politiques
   - politique
   - démocratie

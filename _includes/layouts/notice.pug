@@ -1,0 +1,12 @@
+extends ./base.pug
+
+block content
+  - if (tags === undefined) tags = []
+
+  section
+    h1 !{ title }
+    .tags
+      each tag in tags
+        span #!{ tag } 
+    .
+      !{ content }
