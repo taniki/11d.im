@@ -1,5 +1,3 @@
-var moment = require('moment');
-
 module.exports = function(eleventyConfig) {
   eleventyConfig.setTemplateFormats([
     "pug",
@@ -19,5 +17,4 @@ module.exports = function(eleventyConfig) {
       .getAllSorted()
       .filter(item => item.url
                     && item.inputPath.startsWith('./journal/')))
-
 };
