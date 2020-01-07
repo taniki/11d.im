@@ -1,6 +1,15 @@
 ---
 layout: layouts/base
 ---
+-
+  function prettyDate(date){
+    const day = (date.getDate()).toString().padStart(2, '0')
+    const month = (date.getMonth()+1).toString().padStart(2, '0')
+    const year = date.getFullYear()
+
+    return `${day}.${month}.${year}`
+  }
+
 h1 11d.im
 
 h2 notices
@@ -13,5 +22,5 @@ h2 journal
 ul
   each entry in collections.journal
     li
-      span !{entry.date} 
+      span !{prettyDate(entry.date)} 
       a(href=entry.url) !{entry.data.title}
