@@ -1,0 +1,25 @@
+title: The metapolis dictionary of advanced architecture
+author:
+    - first: Manuel
+      last: Gausa
+    - first: Manuel
+      last: Gausa
+    - first: Manuel
+      last: Gausa
+    - first: Manuel
+      last: Gausa
+    - first: Manuel
+      last: Gausa
+---
+chapter: Invent
+page: 366
+
+As the chef Ferran Adrià says, the cutting edge of creation is not "inventing the onion omelette, but inventing the omelette itself" Inventing means going back to the roots of human activity and contributing to it by developing plural applications of what has been invented.
+
+Development of the information society represents a new moment in history that redefines paradigms in architecture. Many technological inventions have transformed architecture and urbanism. Electricity, the lift, the car, etc. The term invention is rarely applied to architecture. But, as architecture becomes the result of advanced processes, the product of informational and industrial developments that affect the way architecture is thought of, represented, produced and carried out, the concept of invention can be assimilated. New processes of representation can be invented that transform construction system ; materials and mechanisms that transform the functioning of skins and structures ; spaces for thinking and action that may suppose multiple specific applications, using the resources available in each economic and cultural surround.
+
+Inventing architecture means going back to the prototype when projects are produced. The process involves not knowing beforehand what the result will be, yetproposing that the result be a specific response to the object of the project ; a new approach to general, commonly accepted foundations of architecture.
+
+In fact, one fundamental strategy for the advance of architecture is to invent questions that respond to situations affecting architecture as a whole. With his office building in Berlin's Friedrichstrasse in 1919, Mies van der Rohe invented the question of high-rise glass architecture, a question he himself resolved with his Lake Shore Drive apartments twenty-nine years later, the first apartment buildings to have a glass and a steel facade. Le Corbusier invented the question of separating structure and facing using his Domino structure in 1914, which became a central them of architecture in the following years.
+
+In both cases, the proposals pick up technological solutions developed by other persons or organizations. Their basic contribution consisted in presenting the question in the realm of architecture.

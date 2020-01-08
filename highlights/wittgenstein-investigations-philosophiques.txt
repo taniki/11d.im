@@ -1,0 +1,8 @@
+title: Investigations philosophiques
+author:
+    - first: Ludwig
+      last: Wittgenstein
+---
+paragraph: 109
+
+La philosophie est la lutte contre l'ensorcellement de notre entendement par les moyens du langage.

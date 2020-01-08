@@ -24,3 +24,9 @@ ul
     li
       span !{prettyDate(entry.date)} 
       a(href=entry.url) !{entry.data.title}
+
+h2 passages
+ul
+  each highlight in collections.highlights
+    li
+      a(href=highlight.url) !{ highlight.data.title }

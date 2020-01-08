@@ -1,0 +1,14 @@
+title: Cette grande époque
+author:
+    - first: Karl
+      last: Krauss
+---
+La nécessité peut faire de chaque homme un journaliste, mais elle ne peut faire de chaque femme une prostituée.
+---
+chapter: La muraille de chine
+
+Nous avons dressé nos huttes au sommet d'un cratère que nous croyions éteint, nous nous sommes adressé à la nature avec un langage humain et parce que nous n'avons pas compris le sien nous avons cru qu'elle ne bougerait plus. Mais elle continua au long des siècles à célébrer ses libations, nourrissant les feux de la terre de notre dévote certitude. Nous tenions le sexe pour dépassé ; nous avions convenu de ne plus en parler. Mère nature, cette catin, apprivoisée par les engagements sociaux, semblait ne dispenser que la chaleur nécessaire à notre bien-être et le feu qu'elle recelait encore suffisait pour faire notre soupe, et voilà que nous découvrons que durant tout ce temps elle n'a pas sacrifié ses voluptés à notre folie, non, mais qu'elle a mis notre folie au service de ses voluptés. Et nous comprîmes que nos interdits lui procuraient un sursis, nos secrets de bons prétextes, notre honte un aiguillon, nos périls une jouissance, notre circonspection un masque, nos prières de l'ardeur. Tout ce qui, dans le monde vient entraver le plaisir lui servit d'auxiliaire, et dès lors l'amour enchaîné aima ses chaînes, l'amour battu aima ses douleurs, l'amour souillé aima la souillure. Eros banni se vengea en transformant, par sa magie, toute perte en profit. Ce qui est beau est laid, ce qui est laid est beau et ce qui répugne à nos sens à l'affût les attire dans l'ivresse de la volupté.
+---
+chapter: Narcisse
+
+Se taire, ce serait répondre à l'ignominie par l'ignominie.
