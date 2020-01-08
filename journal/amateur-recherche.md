@@ -1,5 +1,6 @@
 ---
 title: "un amateur chanceux"
+date: 2020-01-08
 ---
 
 En regardant à rebours mon temps dans le milieu académique, je me rends compte que j’ai été loin d’être un bon chercheur ou même un scientifique. Moyen ou un peu moins. J’ai manqué de rigueur et pêché de feignantises. C’est une vocation qui demande énormément d’abnégation de soi tout en encourageant une forme de compétition entre pairs. Je suis beaucoup trop inconstant, au final manquant de profondeur, beaucoup trop accroc aux coups d’éclats, habité par une démarche artistique comme on me l’a indiqué une fois. Il ne faut pas savoir faire preuve d’intelligence

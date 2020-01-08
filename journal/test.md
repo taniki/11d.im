@@ -1,5 +1,6 @@
 ---
 title: hello world
+date: 2020-01-06
 ---
 
 ## Cognoscere bellicus illum quoque refugit
