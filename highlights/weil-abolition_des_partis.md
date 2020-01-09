@@ -1,5 +1,6 @@
 ---
 title: Notes sur la suppression générale des partis politique
+year: 1943
 author:
   -
     first: Simone
