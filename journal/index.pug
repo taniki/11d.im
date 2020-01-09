@@ -10,16 +10,9 @@ layout: layouts/base
     return `${day}.${month}.${year}`
   }
 
-h1 11d.im
-
-h2 notices
+h2 journal
 ul
-  each note in collections.notices
+  each entry in collections.journal
     li
-      a(href=note.url) !{note.data.title}
-
-h2 passages
-ul
-  each highlight in collections.highlights
-    li
-      a(href=highlight.url) !{ highlight.data.title }
+      span !{prettyDate(entry.date)} 
+      a(href=entry.url) !{entry.data.title}
