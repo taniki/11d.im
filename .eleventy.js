@@ -17,8 +17,18 @@ function sidenote(md){
       return sidenote
   }
 
+  function render_sidenote_open(tokens, idx, options, env, slf){
+      return '<span class="sidenote">'
+  }
+
+  function render_sidenote_close(tokens, idx, options, env, slf){
+      return '</span>'
+  }
+
   md.renderer.rules.footnote_ref          = render_footnote_ref;
   md.renderer.rules.sidenote              = render_sidenote;
+  md.renderer.rules.sidenote_open              = render_sidenote_open;
+  md.renderer.rules.sidenote_close              = render_sidenote_close;
 
   function footnote_inline(state, silent) {
     var labelStart,
@@ -60,6 +70,19 @@ function sidenote(md){
       token      = state.push('sidenote', '', 0);
       token.content = state.src.slice(labelStart, labelEnd)
       token.children = tokens
+
+      // token      = state.push('sidenote_open', '', 1);
+      // token.meta = { id: footnoteId };
+      //
+      // var t =  new state.Token('html_inline', '', 0);
+      // t.content = state.src.slice(labelStart, labelEnd)
+      // t.children = tokens
+      //
+      // state.tokens.push(t)
+      //
+      // console.log(tokens)
+      //
+      // token      = state.push('sidenote_close', '', -1);
     }
 
     state.pos = labelEnd + 1;
@@ -82,7 +105,7 @@ module.exports = function(eleventyConfig) {
 
   let markdownIt = require("markdown-it")
   let markdownItFootnote = require("markdown-it-footnote")
-  let md = markdownIt().use(sidenote)
+  let md = markdownIt({debug: true}).use(sidenote)
 
   // md.renderer.rules.footnote_ref = (tokens, idx, options, env, slf) => {
   //   var id      = slf.rules.footnote_anchor_name(tokens, idx, options, env, slf);
