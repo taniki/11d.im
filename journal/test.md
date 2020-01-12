@@ -12,8 +12,10 @@ Phaethon in [male ignescere](http://plenumpraetemptat.org/sidera-quae.html): diu
 hic evincitque.
 
 Coniunx erat *rotarum virum* sed harenas *vulnere* gladium commissa ante arma
-monte artus dolorque, malo. Cur utque, vox terras tecta Medusaei numina, qua
+monte artus dolorque, malo. +[ok boomer] Cur utque, vox terras tecta Medusaei numina, qua
 erat magnanimus tantum.
+
+![Coniunx erat *rotarum virum* sed harenas *vulnere* gladium commissa](https://i.picsum.photos/id/1084/536/354.jpg?grayscale)
 
 ## Vina innocuae
 
