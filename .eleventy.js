@@ -7,7 +7,6 @@ module.exports = function(eleventyConfig) {
   ])
 
   let markdownIt = require("markdown-it")
-  let markdownItFootnote = require("markdown-it-footnote")
   let md = markdownIt({debug: true})
     .use(require('./md-tufte/sidenote'))
     .use(require('./md-tufte/marginnote'))
