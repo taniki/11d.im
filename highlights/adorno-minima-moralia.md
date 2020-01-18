@@ -1,8 +1,8 @@
 ---
 title: Minima Moralia
 author:
-    - first: Theodor
-      last: Adorno
+  first: Theodor
+  last: Adorno
 ---
 chapter: 24
 

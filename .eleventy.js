@@ -36,6 +36,13 @@ module.exports = function(eleventyConfig) {
     collection => collection.getFilteredByGlob('./journal/*.md'))
 
   eleventyConfig.addCollection("highlights",
-    collection => collection.getFilteredByGlob("highlights/*.md"))
+    collection => collection
+      .getFilteredByGlob("highlights/*.md")
+      .sort((a,b)=> {
+        if (a.data.author.last > b.data.author.last) return 1;
+        else if (a.data.author.last < b.data.author.last) return -1;
+        else return 0;
+      })
+  )
 
 }

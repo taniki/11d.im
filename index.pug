@@ -1,15 +1,7 @@
 ---
 layout: layouts/base
+title: 11d.im
 ---
--
-  function prettyDate(date){
-    const day = (date.getDate()).toString().padStart(2, '0')
-    const month = (date.getMonth()+1).toString().padStart(2, '0')
-    const year = date.getFullYear()
-
-    return `${day}.${month}.${year}`
-  }
-
 h1 11d.im
 
 h2 notices
@@ -23,3 +15,5 @@ ul
   each highlight in collections.highlights
     li
       a(href=highlight.url) !{ highlight.data.title }
+      .
+        &nbsp;• !{ highlight.data.author.first } !{ highlight.data.author.middle } !{ highlight.data.author.last }

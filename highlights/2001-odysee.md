@@ -1,9 +1,9 @@
 ---
 title: 2001, L'odyssée de l'espace
 author:
-    - first: Arthur
-      middle: C.
-      last: Clarke
+  first: Arthur
+  middle: C.
+  last: Clarke
 ---
 Derrière chaque être vivant il y a trente fantômes, car tel est le rapport des morts aux vivants. Depuis l'aube des temps, environ cent milliards d'être humains ont vécu sur cette planète.
 
