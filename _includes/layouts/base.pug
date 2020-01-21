@@ -1,8 +1,19 @@
 doctype html
 html
   head
-    link(rel="stylesheet" href="/css/tufte.css")
     title #{ title }
+    link(rel="stylesheet" href="/css/tufte.css")
+    script(src="https://identity.netlify.com/v1/netlify-identity-widget.js")
+    script.
+      if (window.netlifyIdentity) {
+        window.netlifyIdentity.on("init", user => {
+          if (!user) {
+            window.netlifyIdentity.on("login", () => {
+              document.location.href = "/admin/";
+            });
+          }
+        });
+      }
   body
     article
       block content

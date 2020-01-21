@@ -1,0 +1,42 @@
+backend:
+  name: git-gateway
+
+publish_mode: editorial_workflow
+
+media_folder: "images/uploads"
+
+collections:
+  - name: "notices" # Used in routes, e.g., /admin/collections/blog
+    label: "Notices" # Used in the UI
+    folder: "notices" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"}
+
+  - name: "highlights" # Used in routes, e.g., /admin/collections/blog
+    label: "Citations" # Used in the UI
+    folder: "highlights" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{author.last}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - {label: "Title", name: "title", widget: "string"}
+      - label: "Author"
+        name: "author"
+        widget: "object"
+        fields:
+          - { label: "first", name: "first", widget: "string" }
+          - { label: "middle", name: "middle", widget: "string" }
+          - { label: "last", name: "last", widget: "string" }
+      - {label: "Body", name: "body", widget: "markdown"}
+
+  - name: "journal" # Used in routes, e.g., /admin/collections/blog
+    label: "journal" # Used in the UI
+    folder: "journal" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "datetime", format: "YYYY-MM-DD"}
+      - {label: "Body", name: "body", widget: "markdown"}

@@ -6,6 +6,8 @@ module.exports = function(eleventyConfig) {
     "woff"
   ])
 
+  eleventyConfig.addPassthroughCopy("admin")
+
   let markdownIt = require("markdown-it")
   let md = markdownIt({debug: true})
     .use(require('./md-tufte/sidenote'))
