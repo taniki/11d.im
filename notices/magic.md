@@ -6,4 +6,4 @@ title: "Magic: The Gathering"
 
 ## Decks
 
-- [4 color cycling](/magic/4color-cycling/)
+- [4 color cycling](/notices/magic/4color-cycling/)
