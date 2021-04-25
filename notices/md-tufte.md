@@ -4,7 +4,7 @@ title: "11ty + tufte.css"
 
 ## features
 
-- ✅ tufte.css
+- ✅ [tufte.css](https://edwardtufte.github.io/tufte-css/)
 - ✅ side note mardown markup
 - ✅ simple margin note markdown markup
 - complex note (like paragraphs or pictures)
