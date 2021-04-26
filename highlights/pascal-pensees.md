@@ -1,8 +1,8 @@
 ---
 title: Pensées
 author:
-    - first: Blaise
-      last: Pascal
+  first: Blaise
+  last: Pascal
 ---
 page: 472
 
