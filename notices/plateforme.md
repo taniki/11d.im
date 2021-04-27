@@ -10,7 +10,8 @@ title: "plateforme"
 ## _data infrastructure_
 
 > Data infrastructure consists of data assets supported by people, processes and technology.
-> <footer><a href="https://theodi.org/topic/data-infrastructure/">What is data infrastructure?</footer>
+>
+> [What is data infrastructure?](https://theodi.org/topic/data-infrastructure/)
 
 ## capitalisme de plateforme et plateforme capitaliste
 
