@@ -9,7 +9,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("admin")
 
   let markdownIt = require("markdown-it")
-  let md = markdownIt({debug: true})
+  let md = markdownIt({html: true})
     .use(require('./md-tufte/sidenote'))
     .use(require('./md-tufte/marginnote'))
 
