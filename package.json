@@ -22,6 +22,7 @@
     "@11ty/eleventy": "^0.9.0"
   },
   "dependencies": {
+    "@tufte-markdown/parser": "^2.0.1",
     "moment": "^2.24.0"
   }
 }
