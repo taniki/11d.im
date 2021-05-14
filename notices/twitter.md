@@ -73,6 +73,8 @@ Naturellement cette dernière n'est pas très active sur ces temps de journée.
 
 - Utilisez [mastodon][join-mastodon], il s'agit d'un réseau de micro-blogging
 décentralisé.
+  - Voir aussi l'article [un guide rapide de mastodon](https://joachimesque.com/blog/un-guide-rapide-de-mastodon)
+    de [joachim](https://joachimesque.com)
   - L'instance que je gère : [social.apreslanu.it](https://social.apreslanu.it)
     - C'est plutt une ambiance entre potes et low audience. Je le vois plutot
     comme un blog à l'ancienne, où on y écrit par besoin/envie d'écrire plus que
