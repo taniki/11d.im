@@ -15,5 +15,5 @@ ul
   each highlight in collections.highlights
     li
       a(href=highlight.url) !{ highlight.data.title }
-      .
-        &nbsp;• !{ highlight.data.author.first } !{ highlight.data.author.middle } !{ highlight.data.author.last }
+      |
+      | • !{ highlight.data.author.first } !{ highlight.data.author.middle } !{ highlight.data.author.last }
