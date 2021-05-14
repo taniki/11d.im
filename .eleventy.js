@@ -15,10 +15,20 @@ module.exports = function(eleventyConfig) {
 
   eleventyConfig.setLibrary("md", md)
 
-  eleventyConfig.addCollection("notices", collection => collection.getFilteredByGlob("notices/*.md"))
+  eleventyConfig.addCollection("notices",
+    collection => collection
+      .getFilteredByGlob("notices/*.md")
+      .sort((a,b) => {
+        let x = ((a.data.short) ? a.data.short: a.data.title).toLowerCase()
+        let y = ((b.data.short) ? b.data.short: b.data.title).toLowerCase()
 
-  eleventyConfig.addCollection("journal",
-    collection => collection.getFilteredByGlob('./journal/*.md'))
+        if (x > y) return 1
+        else if (x < y ) return -1
+        else return 0
+      })
+    )
+
+  eleventyConfig.addCollection("journal", collection => collection.getFilteredByGlob('./journal/*.md'))
 
   eleventyConfig.addCollection("highlights",
     collection => collection
