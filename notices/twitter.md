@@ -3,7 +3,7 @@ title: Twitter, un mode d'emploi
 short: twitter
 ---
 
-Ayant connu [twitter](https://twitter.com) relativement tot, j'éprouve une certaine affection pour
+Ayant connu [twitter](https://twitter.com) relativement tt, j'éprouve une certaine affection pour
 ce réseau. Il était possible d'y faire de belles rencontres, d'avoir des
 discussions constructives. Cela fait plusieurs années par contre que l'ambiance
 y est relativement toxique. Il s'agit avant tout d'une plateforme
@@ -12,7 +12,7 @@ de publicité que ce soit des entreprises commerciales ou des entreprises politi
 J'ai essayé de décrocher plusieurs fois mais sans succès. J'ai également toujours des *mixed feelings*
 quand quelqu'un n'arrive pas à utiliser twitter à cause de son ambiance. Je me dis donc
 que poser par écrit mes petites tactiques pour trouver de l'information et
-utiliser ce réseau comme outil de conversation pourra peut etre dépanner quelques
+utiliser ce réseau comme outil de conversation pourra peut tre dépanner quelques
 personnes.
 
 ## Quelques règles de survie
@@ -21,25 +21,25 @@ personnes.
   ce que je peux y lire ou y dire.
   - Croire que twitter est important, c'est la performativité du pouvoir de
     cette plateforme.
-- En cas de fatigue, fermez la fenetre. Voir [FOMO](https://fr.wikipedia.org/wiki/Syndrome_FOMO).
+- En cas de fatigue, fermez la fentre. Voir [FOMO](https://fr.wikipedia.org/wiki/Syndrome_FOMO).
   - Préférer l'interface web classique à [tweetdeck](https://tweetdeck.twitter.com).
-  - Tweetdeck donne vite l'impression d'etre une sorte de mettre de l'information,
-    d'etre au courant de tout et de suivre plusieurs sujets à la fois mais c'est
+  - Tweetdeck donne vite l'impression d'tre une sorte de mettre de l'information,
+    d'tre au courant de tout et de suivre plusieurs sujets à la fois mais c'est
     plus fatiguant qu'autre chose à la longue.
   - Devoir accomplir plus d'actions pour avoir plus d'information, prend plus
     de temps mais à également la vertu de mieux conscientiser l'effort et le temps.
 - Bloquer à vue tout ce qui est ressemble à un comportement toxique.
-  - Personnellement, c'est tout ce qui va me trigger : les idéologies politiques
+  - Personnellement, c'est tout ce qui va me *trigger* : les idéologies politiques
     qui penchent vers la droite, les gens pas d'accord par principe, etc.
   - Je mute aussi les comptes qui sont intéressants mais dont l'activité
     principale est de réagir à des comptes que j'ai bloqué.
-  - J'essaie aussi d'appliquer ces regles à moi meme en mode "est-ce que j'aurai
+  - J'essaie aussi d'appliquer ces rgles à moi meme en mode "est-ce que j'aurai
     envie de me suivre sur twitter".
     - J'évite de trop retweeter, de ne pas le faire impulsivement sans réfléchir (
       surtout les contenus négatifs : ce qui n'est pas mignon, joli ou plaisant) et
       donc de me forcer à poser quelques mots sur le retweet pour savoir si j'ai
       vraiment quelque chose à en dire ou si c'est *brainless*.
-    - J'évite de pratiquer le sarcasme ou la quete de punchline. Ca fait plaisir,
+    - J'évite de pratiquer le sarcasme ou la quete de punchline. Cela fait plaisir,
       ça ramène meme des likes et des RT mais ça reste une forme de toxicité. Si
       l'envie est vraiment irréppressible, j'ai un compte défouloir.
 - Avoir un ratio maximum de 1:1 entre nombre de personnes que je suis et nombre de
@@ -59,7 +59,7 @@ personnes qui me suivent.
 
 Afin de ne pas tout mélanger dans ma timeline, j'utilise les listes twitter.
 En journée, je ne regarde que ma timeline + liste de travail. Le soir, je regarde
-plutot mes listes hobby et parfois un coup d'oeil sur la liste des sujets de boulots.
+plutt mes listes hobby et parfois un coup d'oeil sur la liste des sujets de boulots.
 Meme si naturellement cette dernière n'est pas très active sur ces temps de journée.
 
 - [betalab][liste betalab] : du service public, de la donnée et de l'ouverture.
@@ -74,9 +74,9 @@ Meme si naturellement cette dernière n'est pas très active sur ces temps de jo
 - Utilisez [mastodon][join-mastodon], il s'agit d'un réseau de micro-blogging
 décentralisé.
   - L'instance que je gère : [social.apreslanu.it](https://social.apreslanu.it)
-    - C'est plutot une ambiance entre potes et low audience. Je le vois plutot
-    comme un blog à l'ancienne, où on y écrit par besoin d'écrire plus que
-    pour une audience particulière ou meme envie d'etre lu.
+    - C'est plutt une ambiance entre potes et low audience. Je le vois plutot
+    comme un blog à l'ancienne, où on y écrit par besoin/envie d'écrire plus que
+    pour une audience particulière ou meme l'attente d'etre lu.
     - N'hésitez pas à me signaler une demande de création de compte par email si besoin : `tk@renard.ninja`
 
 
