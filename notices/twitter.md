@@ -62,10 +62,11 @@ En journée, je ne regarde que ma timeline + liste de travail. Le soir, je regar
 plutot mes listes hobby et parfois un coup d'oeil sur la liste des sujets de boulots.
 Meme si naturellement cette dernière n'est pas très active sur ces temps de journée.
 
-- [betalab][liste betalab]
-- [products][liste products]
-- [games][liste games]
-- [mechs][liste mechs]
+- [betalab][liste betalab] : du service public, de la donnée et de l'ouverture.
+- [products][liste products] : des trucs inspirants à propos de l'approche produit
+  et aussi des produits que j'aime bien.
+- [games][liste games] : des jeux vidéos et de société.
+- [mechs][liste mechs] : des robots en plastique et de la peinture.
 
 
 ## Si vous avez vraiment besoin d'un espace safe
