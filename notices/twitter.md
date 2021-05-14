@@ -3,7 +3,7 @@ title: Twitter, un mode d'emploi
 short: twitter
 ---
 
-Ayant connu [twitter](https://twitter.com) relativement tt, j'éprouve une certaine affection pour
+Ayant connu [twitter](https://twitter.com) relativement tôt, j'éprouve une certaine affection pour
 ce réseau. Il était possible d'y faire de belles rencontres, d'avoir des
 discussions constructives. Cela fait plusieurs années par contre que l'ambiance
 y est relativement toxique. Il s'agit avant tout d'une plateforme
@@ -23,11 +23,11 @@ personnes.
     cette plateforme.
 - En cas de fatigue, fermez la fentre. Voir [FOMO](https://fr.wikipedia.org/wiki/Syndrome_FOMO).
   - Préférer l'interface web classique à [tweetdeck](https://tweetdeck.twitter.com).
-  - Tweetdeck donne vite l'impression d'tre une sorte de mettre de l'information,
-    d'tre au courant de tout et de suivre plusieurs sujets à la fois mais c'est
+  - Tweetdeck donne vite l'impression d'être une sorte de mettre de l'information,
+    d'être au courant de tout et de suivre plusieurs sujets à la fois mais c'est
     plus fatiguant qu'autre chose à la longue.
   - Devoir accomplir plus d'actions pour avoir plus d'information, prend plus
-    de temps mais à également la vertu de mieux conscientiser l'effort et le temps.
+    de temps mais a également la vertu de mieux conscientiser l'effort et le temps.
 - Bloquer à vue tout ce qui est ressemble à un comportement toxique.
   - Personnellement, c'est tout ce qui va me *trigger* : les idéologies politiques
     qui penchent vers la droite, les gens pas d'accord par principe, etc.
@@ -40,7 +40,7 @@ personnes.
       donc de me forcer à poser quelques mots sur le retweet pour savoir si j'ai
       vraiment quelque chose à en dire ou si c'est *brainless*.
     - J'évite de pratiquer le sarcasme ou la quete de punchline. Cela fait plaisir,
-      ça ramène meme des likes et des RT mais ça reste une forme de toxicité. Si
+      ça ramène même des likes et des RT mais ça reste une forme de toxicité. Si
       l'envie est vraiment irréppressible, j'ai un compte défouloir.
 - Avoir un ratio maximum de 1:1 entre nombre de personnes que je suis et nombre de
 personnes qui me suivent.
@@ -59,8 +59,8 @@ personnes qui me suivent.
 
 Afin de ne pas tout mélanger dans ma timeline, j'utilise les listes twitter.
 En journée, je ne regarde que ma timeline + liste de travail. Le soir, je regarde
-plutt mes listes hobby et parfois un coup d'oeil sur la liste des sujets de boulots.
-Meme si naturellement cette dernière n'est pas très active sur ces temps de journée.
+plutôt mes listes hobby et parfois un coup d'oeil sur la liste des sujets de boulots.
+Naturellement cette dernière n'est pas très active sur ces temps de journée.
 
 - [betalab][liste betalab] : du service public, de la donnée et de l'ouverture.
 - [products][liste products] : des trucs inspirants à propos de l'approche produit
@@ -76,7 +76,7 @@ décentralisé.
   - L'instance que je gère : [social.apreslanu.it](https://social.apreslanu.it)
     - C'est plutt une ambiance entre potes et low audience. Je le vois plutot
     comme un blog à l'ancienne, où on y écrit par besoin/envie d'écrire plus que
-    pour une audience particulière ou meme l'attente d'etre lu.
+    pour une audience particulière ou même l'attente d'être lu.
     - N'hésitez pas à me signaler une demande de création de compte par email si besoin : `tk@renard.ninja`
 
 
