@@ -7,6 +7,7 @@ module.exports = function(eleventyConfig) {
   ])
 
   eleventyConfig.addPassthroughCopy("admin")
+  eleventyConfig.addPassthroughCopy("images")
 
   let markdownIt = require("markdown-it")
   let md = markdownIt({html: true})
