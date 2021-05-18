@@ -1,9 +1,6 @@
 ---
-title: blogroll
-layout: layouts/base
+title: écosystème
 ---
-
-# Écosystème
 
 Des sites que j'aime bien lire et des gens que j'apprécie.
 
