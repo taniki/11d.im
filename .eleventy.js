@@ -23,9 +23,7 @@ module.exports = function(eleventyConfig) {
         let x = ((a.data.short) ? a.data.short: a.data.title).toLowerCase()
         let y = ((b.data.short) ? b.data.short: b.data.title).toLowerCase()
 
-        if (x > y) return 1
-        else if (x < y ) return -1
-        else return 0
+        return x.localeCompare(y)
       })
     )
 
