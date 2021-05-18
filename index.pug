@@ -2,6 +2,19 @@
 layout: layouts/base
 title: 11d.im
 ---
+-
+  let formatDate = (text) => {
+    let d = new Date(text)
+
+    let day = (d.getDate()).toString().padStart(2, '0')
+    let month = (d.getMonth()+1).toString().padStart(2, '0')
+    let year = d.getFullYear()
+
+    let formated = `${day}.${month}.${year}`
+
+    return formated
+  }
+
 h1 11d.im
 
 h2 notices
@@ -10,6 +23,18 @@ ul
     li
       a(href=note.url) !{ (note.data.short) ? note.data.short : note.data.title }
 
+h2 journal
+
+p
+  each entry, index in collections.journal.reverse()
+    span
+      span !{ formatDate(entry.date) } :
+      | 
+      a(href=entry.url) !{ entry.data.title }
+      |
+      unless index == collections.journal.length-1
+        span  • 
+      
 h2 passages
 ul
   each highlight in collections.highlights
