@@ -22,7 +22,12 @@
     "@11ty/eleventy": "^0.9.0"
   },
   "dependencies": {
+    "@octokit/auth-app": "^3.4.0",
+    "@octokit/auth-token": "^2.4.5",
+    "@octokit/request": "^5.4.15",
+    "@octokit/rest": "^18.5.3",
     "@tufte-markdown/parser": "^2.0.1",
-    "moment": "^2.24.0"
+    "moment": "^2.24.0",
+    "octokit": "^1.0.5"
   }
 }
