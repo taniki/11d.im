@@ -29,6 +29,9 @@ p
   each entry, index in collections.journal.reverse()
     span
       span !{ formatDate(entry.date) } :
+      if entry.inputPath.includes('/yo/')
+        | 
+        | 👋
       | 
       a(href=entry.url) !{ entry.data.title }
       |
