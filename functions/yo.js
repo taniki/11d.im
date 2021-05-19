@@ -1,3 +1,5 @@
+let folder = 'yo'
+
 function string_to_slug(str) {
     str = str.replace(/^\s+|\s+$/g, ''); // trim
     str = str.toLowerCase();
@@ -31,7 +33,7 @@ date: ${year}-${month}-${day}
 ${data.content}`
 
   let slug = `${year}-${month}-${day}-${string_to_slug(data.title)}`
-  let path = `heyworld/${slug}.md`
+  let path = `${folder}/${slug}.md`
 
   return { path, slug, text }
 }
@@ -58,7 +60,7 @@ exports.handler = async function (event, context) {
       owner: 'taniki',
       repo: '11d.im',
       path: path,
-      message: `✉️ hey world: ${data.title}`,
+      message: `✉️👋 yo! ${data.title}`,
       content: Buffer.from(text, 'utf8').toString('base64')
   })
 
