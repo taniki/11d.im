@@ -27,7 +27,11 @@ module.exports = function(eleventyConfig) {
       })
     )
 
-  eleventyConfig.addCollection("journal", collection => collection.getFilteredByGlob('./journal/*.md'))
+  eleventyConfig.addCollection("journal",
+    collection => collection
+      .getFilteredByGlob(['./journal/*.md', './yo/*.md'])
+      .filter(x => !x.data.hidden)
+    )
 
   eleventyConfig.addCollection("highlights",
     collection => collection
