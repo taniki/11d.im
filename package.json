@@ -27,7 +27,7 @@
     "@octokit/request": "^5.4.15",
     "@octokit/rest": "^18.5.3",
     "@tufte-markdown/parser": "^2.0.1",
-    "moment": "^2.24.0",
+    "moment": "^2.29.1",
     "octokit": "^1.0.5"
   }
 }
