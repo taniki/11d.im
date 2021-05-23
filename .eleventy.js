@@ -10,7 +10,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("images")
 
   let markdownIt = require("markdown-it")
-  let md = markdownIt({html: true})
+  let md = markdownIt({html: true, linkify: true })
     .use(require('./md-tufte/sidenote'))
     .use(require('./md-tufte/marginnote'))
 

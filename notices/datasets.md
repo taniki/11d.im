@@ -14,3 +14,7 @@ short: données (jeux de)
 ## Tweets from/about [@datagouvfr](https://twitter.com/datagouvfr) and [@etalab](https://twitter.com/etalab)
 
 [![scrape tweets](https://github.com/taniki/datagouvfr-tweets/actions/workflows/minet-tweets.yaml/badge.svg)](https://github.com/taniki/datagouvfr-tweets/actions/workflows/minet-tweets.yaml)
+
+## Tweets from/about [@taniki](https://twitter.com/taniki)
+
+https://github.com/taniki/tweets
