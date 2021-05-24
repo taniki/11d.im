@@ -15,33 +15,47 @@ title: 11d.im
     return formated
   }
 
+-
+  let notices = collections.notices.reduce((acc, n)=>{
+    let title = (n.data.short) ? n.data.short : n.data.title
+    let letter = title.charAt(0).toLowerCase()
+    if (!(letter in acc)) acc[letter] = []
+    acc[letter].push(n)
+    return acc
+  }, {})
+
 h1 11d.im
 
 h2 notices
-ul
-  each note in collections.notices
-    li
-      a(href=note.url) !{ (note.data.short) ? note.data.short : note.data.title }
+
+p
+  each n in Object.entries(notices)
+    b !{ n[0] }&nbsp;:&nbsp;
+    each note in n[1]
+      span
+        a(href=note.url) !{ (note.data.short) ? note.data.short : note.data.title }
+        span(style="color: #aaa;")  • 
+    | 
 
 h2 journal
 
 p
   each entry, index in collections.journal.reverse()
     span
-      span !{ formatDate(entry.date) } :
+      b !{ formatDate(entry.date) }&nbsp;:&nbsp;
       if entry.inputPath.includes('/yo/')
-        | 
-        | 👋
-      | 
+        | &nbsp;👋&nbsp;
       a(href=entry.url) !{ entry.data.title }
       |
       unless index == collections.journal.length-1
-        span  • 
+        span(style="color: #aaa;")  • 
       
 h2 passages
-ul
+
+p
   each highlight in collections.highlights
-    li
+    span
+      b !{ highlight.data.author.first } !{ highlight.data.author.middle } !{ highlight.data.author.last }&nbsp;:&nbsp;
       a(href=highlight.url) !{ highlight.data.title }
-      |
-      | • !{ highlight.data.author.first } !{ highlight.data.author.middle } !{ highlight.data.author.last }
+      unless index == collections.journal.length-1
+        span(style="color: #aaa;")  • 
