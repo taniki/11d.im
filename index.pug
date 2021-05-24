@@ -29,13 +29,13 @@ h1 11d.im
 h2 notices
 
 p
-  each n in Object.entries(notices)
+  each n, i1 in Object.entries(notices)
     b !{ n[0] }&nbsp;:&nbsp;
-    each note in n[1]
+    each note, i2 in n[1]
       span
         a(href=note.url) !{ (note.data.short) ? note.data.short : note.data.title }
-        span(style="color: #aaa;")  • 
-    | 
+        unless i1 == Object.entries(notices).length - 1 && i2 == n[1].length - 1
+          span(style="color: #aaa;")  • 
 
 h2 journal
 
@@ -44,7 +44,7 @@ p
     span
       b !{ formatDate(entry.date) }&nbsp;:&nbsp;
       if entry.inputPath.includes('/yo/')
-        | &nbsp;👋&nbsp;
+        | 👋&nbsp;
       a(href=entry.url) !{ entry.data.title }
       |
       unless index == collections.journal.length-1
@@ -53,9 +53,9 @@ p
 h2 passages
 
 p
-  each highlight in collections.highlights
+  each highlight, index in collections.highlights
     span
       b !{ highlight.data.author.first } !{ highlight.data.author.middle } !{ highlight.data.author.last }&nbsp;:&nbsp;
       a(href=highlight.url) !{ highlight.data.title }
-      unless index == collections.journal.length-1
+      unless index == collections.highlights.length-1
         span(style="color: #aaa;")  • 
