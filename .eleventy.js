@@ -1,4 +1,10 @@
+const pluginRss = require("@11ty/eleventy-plugin-rss");
+
 module.exports = function(eleventyConfig) {
+  // plugins
+  eleventyConfig.addPlugin(pluginRss);
+
+  // supported formats
   eleventyConfig.setTemplateFormats([
     "pug",
     "md",
@@ -9,6 +15,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("admin")
   eleventyConfig.addPassthroughCopy("images")
 
+  // custom markdown
   let markdownIt = require("markdown-it")
   let md = markdownIt({html: true, linkify: true })
     .use(require('./md-tufte/sidenote'))
