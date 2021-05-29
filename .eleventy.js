@@ -1,12 +1,15 @@
 const pluginRss = require("@11ty/eleventy-plugin-rss");
 
 module.exports = function(eleventyConfig) {
+
   // plugins
   eleventyConfig.addPlugin(pluginRss);
+  eleventyConfig.addLiquidFilter("dateToRfc3339", pluginRss.dateRfc3339);
 
   // supported formats
   eleventyConfig.setTemplateFormats([
     "pug",
+    "njk",
     "md",
     "css",
     "woff"
