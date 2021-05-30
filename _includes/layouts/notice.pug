@@ -3,10 +3,9 @@ extends ./base.pug
 block content
   - if (tags === undefined) tags = []
 
-  section
+  article
     h1 !{ title }
     .tags
       each tag in tags
         span #!{ tag } 
-    .
-      !{ content }
+    section !{ content }

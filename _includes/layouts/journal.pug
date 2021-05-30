@@ -7,8 +7,7 @@ block content
     const year = page.date.getFullYear()
     var prettyDate = `${day}.${month}.${year}`
 
-  section
+  article
     h1 !{ title }
     p.subtitle #{ prettyDate }
-    .
-      !{ content }
+    section !{ content }
