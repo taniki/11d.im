@@ -13,4 +13,4 @@ Est-ce que j’aurai également aimé que ce soit une activité diurne et profes
 Le lendemain, je me suis concentré sur des visualisations plus pragmatiques, utiles pour la pensée (littéralement). C’était plus satisfaisant.
 
 <iframe width="100%" height="1570" frameborder="0"
-src="https://observablehq.com/embed/@taniki/regionales2021-sondages-suivi?cells=institutsChart%2CregionsChart%2ChypothesesChart"></iframe>;
+src="https://observablehq.com/embed/@taniki/regionales2021-sondages-suivi?cells=institutsChart%2CregionsChart%2ChypothesesChart"></iframe>
