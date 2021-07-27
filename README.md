@@ -2,6 +2,14 @@
 
 ### Local
 
+```
+npm run serve
+```
+
 ### Publier
 
-Ce site utilise github-pages. Il suffit d'un simple `git push`.
+```
+git push
+```
+
+[Netlify](https://netlify.com) et github font le reste du travail.
