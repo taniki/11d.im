@@ -1,5 +1,5 @@
 ---
-title: Ce que j'ai appris en une dizaine jours sur six.photos
+title: Ce que j'ai appris en une dizaine de jours sur six.photos
 date: 2021-07-28
 ---
 
