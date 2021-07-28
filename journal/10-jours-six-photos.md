@@ -7,7 +7,7 @@ Au départ, je voulais un nouvel objectif pour faire de la [street photography](
 
 J’avais envie de voir jusqu’où je peux aller en mode ~~no code~~ low code et surtout sans avoir à gérer un serveur web.
 
-## [Astro](astro.build)
+## [Astro](https://astro.build)
 
 - Super fun !
 - Rapide.
