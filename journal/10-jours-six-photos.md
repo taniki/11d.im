@@ -5,7 +5,7 @@ date: 2021-07-28
 
 Au départ, je voulais un nouvel objectif pour faire de la street photography puis je me suis retrouvé à acheter un appareil (cette partie de l’histoire dans un autre épisode) et donc très logiquement, je me suis retrouvé à faire un site web pour partager des photos à des proches parce que j’en ai marre d’instagram et que flickr, ça fait quand même bizarre d’y revenir. Ces deux points également une histoire pour une autre fois mais en attendant quelque _assorted musings_ à propos de la construction du site.
 
-J’avais envie de voir jusqu’où je peux aller en mode ~~no code~~ low code.
+J’avais envie de voir jusqu’où je peux aller en mode ~~no code~~ low code et surtout sans avoir à gérer un serveur web.
 
 ## [Astro](astro.build)
 
