@@ -25,6 +25,7 @@ date: 2021-08-04
 
 - Je suis passé de 30 secondes à 20 secondes de build ✌️. Je pense que je commencerai à réfléchir à une alternative quand j'approcherai d'1 minute de build. J'ai encore pas mal de marge.
 - Le code a également perdu une 50aine de ligne tellement l'API REST d'airtable n'est quand même avant tout adapté qu'à l'affiche de leur propre front/client.
+  - J'ai pu évacuer tous les morceaux d'interface pour l'upload et la gestion des photos.
 - Je suis vraiment satisfait de cet assemblage.
   - Je n'ai pas vraiment de problème de performance à me soucier.
   - Je n'ai pas de serveur à intégrer dans une charge cognitive. Facturation, sécurité, etc.
