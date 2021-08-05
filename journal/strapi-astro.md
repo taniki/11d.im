@@ -28,7 +28,9 @@ date: 2021-08-04
   - J'ai pu évacuer tous les morceaux d'interface pour l'upload et la gestion des photos.
 - Je suis vraiment satisfait de cet assemblage.
   - Je n'ai pas vraiment de problème de performance à me soucier.
+  - Le CMS n'est utilisé que lorsque quelqu'un vient éditer le site à la suite de quoi le site est entièrement reconstruit et autonome en terme d'affichage.
   - Je n'ai pas de serveur à intégrer dans une charge cognitive. Facturation, sécurité, etc.
   - En l'état, si je ne touche plus à rien, ce ne sont que des fichiers html qui s'afficheront quoi qu'il arrive.
+  - Simon Wilson a fait [un super article sur l'architecture Baked Data](https://simonwillison.net/2021/Jul/28/baked-data/) qui est une bonne piste pour un avenir encore lointain.
 - Je peux donc maintenant passer du temps à faire de la photographie, voir avec quelques proches s'ils ne veulent pas mettre leur photo sur ce site et réfléchir à la prochaine étape.
 - Je suis également heureux d'utiliser mon propre site et d'y partager des photos depuis une dizaine de jours. C'est vraiment un plaisir d'avoir un espace de partage qui soit totalement en dehors du cadre de facebook, twitter, instagram, etc.
