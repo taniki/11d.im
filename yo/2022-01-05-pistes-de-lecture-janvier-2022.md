@@ -21,7 +21,7 @@ J’ai par ailleurs racheter une liseuse à l’occasion des fêtes de fin d'ann
 
 • How not to be wrong. The power of mathematical thinking (Jordan Ellenberg)
 • The art of statistics. Learning from data (David Spiegelhalter)
-• The book of who. The new science of cause and effect (Judea Pearl et Dana Mackenzie)
+• The book of why. The new science of cause and effect (Judea Pearl et Dana Mackenzie)
 
 
 
