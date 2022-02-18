@@ -42,11 +42,11 @@ h2 journal
 p
   each entry, index in collections.journal.reverse()
     span
-      b !{ formatDate(entry.date) }&nbsp;:&nbsp;
+      span 
       // if entry.inputPath.includes('/yo/')
       //  | 👋&nbsp;
       a(href=entry.url) !{ entry.data.title }
-      |
+      span(style="color: #aaa;") &nbsp;!{ formatDate(entry.date) }
       unless index == collections.journal.length-1
         span(style="color: #aaa;")  • 
       
