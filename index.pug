@@ -26,17 +26,6 @@ title: 11d.im
 
 h1 11d.im
 
-h2 notices
-
-p
-  each n, i1 in Object.entries(notices)
-    b !{ n[0] }&nbsp;:&nbsp;
-    each note, i2 in n[1]
-      span
-        a(href=note.url) !{ (note.data.short) ? note.data.short : note.data.title }
-        unless i1 == Object.entries(notices).length - 1 && i2 == n[1].length - 1
-          span(style="color: #aaa;")  • 
-
 h2 journal
 
 p
@@ -59,3 +48,14 @@ p
       a(href=highlight.url) !{ highlight.data.title }
       unless index == collections.highlights.length-1
         span(style="color: #aaa;")  • 
+
+h2 notices
+
+p
+  each n, i1 in Object.entries(notices)
+    b !{ n[0] }&nbsp;:&nbsp;
+    each note, i2 in n[1]
+      span
+        a(href=note.url) !{ (note.data.short) ? note.data.short : note.data.title }
+        unless i1 == Object.entries(notices).length - 1 && i2 == n[1].length - 1
+          span(style="color: #aaa;")  • 
