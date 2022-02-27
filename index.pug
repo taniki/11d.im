@@ -10,12 +10,11 @@ title: 11d.im
     let month = (d.getMonth()+1).toString().padStart(2, '0')
     let year = d.getFullYear()
 
-    let formated = `${day}.${month}.${year}`
+    let formated = `${day}.${month}`
 
     return formated
   }
 
--
   let notices = collections.notices.reduce((acc, n)=>{
     let title = (n.data.short) ? n.data.short : n.data.title
     let letter = title.charAt(0).toLowerCase()
@@ -23,21 +22,43 @@ title: 11d.im
     acc[letter].push(n)
     return acc
   }, {})
+  
+  let journal_byyear = collections
+    .journal
+    .reduce((acc, entry)=>{
+      const year = (new Date(entry.date)).getFullYear()
+      
+      if (!(year in acc)) acc[year] = []
+      
+      acc[year].push(entry)
+      
+      return acc
+    }, {})
+    
+  let years = [
+    ... new Set(
+      collections
+        .journal
+        .map(e => (new Date(e.date)).getFullYear())
+    )
+  ]
 
 h1 11d.im
 
 h2 journal
 
-p
-  each entry, index in collections.journal.reverse()
-    span
-      span 
-      // if entry.inputPath.includes('/yo/')
-      //  | 👋&nbsp;
-      a(href=entry.url) !{ entry.data.title }
-      span(style="color: #aaa;") &nbsp;!{ formatDate(entry.date) }
-      unless index == collections.journal.length-1
-        span(style="color: #aaa;")  • 
+each year in years.reverse()
+  h3= year
+  
+  - entries = journal_byyear[year].reverse()
+  
+  p
+    each entry, index in entries
+      span
+        a(href=entry.url) !{ entry.data.title }
+        span(style="color: #aaa;") &nbsp;!{ formatDate(entry.date) }
+        unless index == entries.length-1
+          span(style="color: #aaa;")  • 
 
 p
   a(href="/feed.xml") 📮 fil rss
