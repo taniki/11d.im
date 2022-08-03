@@ -20,14 +20,14 @@
     "xfn": "met"
   },
   {
-    "label": "Louphole",
-    "url": "http://louphole.com/",
-    "xfn": "met"
-  },
-  {
     "label": "Joachimesque",
     "url": "https://joachimesque.com/",
     "xfn": "met friend"
+  },
+  {
+    "label": "Louphole",
+    "url": "http://louphole.com/",
+    "xfn": "met"
   },
   {
     "label": "meidosem",
@@ -40,11 +40,6 @@
     "xfn": "met acquaintance"
   },
   {
-    "label": "Tout ce qui bouge",
-    "url": "https://toutcequibouge.net/",
-    "xfn": "met"
-  },
-  {
     "label": "S. Dupont-Gellert",
     "url": "https://zigmoon.com/",
     "xfn": "met friend"
@@ -53,5 +48,15 @@
     "label": "stefw",
     "url": "https://stefw.fr/",
     "xfn": "met friend"
+  },
+  {
+    "label": "Tout ce qui bouge",
+    "url": "https://toutcequibouge.net/",
+    "xfn": "met"
+  },
+  {
+    "label": "マリウス",
+    "url": "https://xn--gckvb8fzb.com/",
+    "xfn": ""
   }
 ]
