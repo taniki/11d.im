@@ -66,7 +66,19 @@ each year in years.reverse()
 
 p
   a(href="/feed.xml") 📮 fil rss
-      
+
+
+h2 tempus fugit
+
+p
+    each entry, index in collections.semaines
+        span
+            a(href=entry.url) !{ entry.data.title }
+
+p
+    a(href="/tempusfugit.xml") 📮 fil rss
+
+
 h2 passages
 
 p
@@ -76,6 +88,7 @@ p
       a(href=highlight.url) !{ highlight.data.title }
       unless index == collections.highlights.length-1
         span(style="color: #aaa;")  • 
+
 
 h2 notices
 
