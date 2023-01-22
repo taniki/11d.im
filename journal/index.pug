@@ -2,5 +2,60 @@
 layout: layouts/base
 title: ~/journal
 ---
+-
+  let formatDate = (text) => {
+    let d = new Date(text)
 
-p turpitudes sur le travail et la technique
+    let day = (d.getDate()).toString().padStart(2, '0')
+    let month = (d.getMonth()+1).toString().padStart(2, '0')
+    let year = d.getFullYear()
+
+    let formated = `${day}.${month}`
+
+    return formated
+  }
+
+  let notices = collections.notices.reduce((acc, n)=>{
+    let title = (n.data.short) ? n.data.short : n.data.title
+    let letter = title.charAt(0).toLowerCase()
+    if (!(letter in acc)) acc[letter] = []
+    acc[letter].push(n)
+    return acc
+  }, {})
+  
+  let journal_byyear = collections
+    .journal
+    .reduce((acc, entry)=>{
+      const year = (new Date(entry.date)).getFullYear()
+      
+      if (!(year in acc)) acc[year] = []
+      
+      acc[year].push(entry)
+      
+      return acc
+    }, {})
+    
+  let years = [
+    ... new Set(
+      collections
+        .journal
+        .map(e => (new Date(e.date)).getFullYear())
+    )
+  ]
+
+h1 journal
+
+p
+  a(href="/feed.xml") 📮 fil rss
+
+each year in years.reverse()
+  h3= year
+  
+  - entries = journal_byyear[year].reverse()
+
+    ul
+        each entry, index in entries
+            li
+                span(style="color: #aaa;") &nbsp;!{ formatDate(entry.date) }&nbsp;
+                a(href=entry.url) !{ entry.data.title }
+
