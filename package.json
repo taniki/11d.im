@@ -19,16 +19,16 @@
   },
   "homepage": "https://github.com/taniki/11d.im#readme",
   "devDependencies": {
-    "@11ty/eleventy": "^0.9.0",
-    "@11ty/eleventy-plugin-rss": "^1.1.1"
+    "@11ty/eleventy": "^1.0.2",
+    "@11ty/eleventy-plugin-rss": "^1.2.0"
   },
   "dependencies": {
-    "@octokit/auth-app": "^3.4.0",
-    "@octokit/auth-token": "^2.4.5",
-    "@octokit/request": "^5.4.15",
-    "@octokit/rest": "^18.5.3",
+    "@octokit/auth-app": "^4.0.8",
+    "@octokit/auth-token": "^3.0.3",
+    "@octokit/request": "^6.2.3",
+    "@octokit/rest": "^19.0.7",
     "@tufte-markdown/parser": "^2.0.1",
-    "moment": "^2.29.1",
-    "octokit": "^1.0.5"
+    "moment": "^2.29.4",
+    "octokit": "^2.0.14"
   }
 }
