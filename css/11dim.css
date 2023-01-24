@@ -1,3 +1,7 @@
+body > footer {
+    margin-bottom: 3em;
+}
+
 body > footer ul {
   font-size: 1rem;
   line-height: 1.2em;
