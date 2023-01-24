@@ -15,14 +15,6 @@ title: ~/journal
     return formated
   }
 
-  let notices = collections.notices.reduce((acc, n)=>{
-    let title = (n.data.short) ? n.data.short : n.data.title
-    let letter = title.charAt(0).toLowerCase()
-    if (!(letter in acc)) acc[letter] = []
-    acc[letter].push(n)
-    return acc
-  }, {})
-  
   let journal_byyear = collections
     .journal
     .reduce((acc, entry)=>{
@@ -51,7 +43,7 @@ p
 each year in years.reverse()
   h3= year
   
-  - entries = journal_byyear[year].reverse()
+  - entries = journal_byyear[year]
 
     ul
         each entry, index in entries
