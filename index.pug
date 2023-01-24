@@ -47,11 +47,14 @@ h1 11d.im
 
 div.epigraph
   blockquote
-    p 👋 Salut, je suis <strong>tam kien duong</strong>, bienvenue dans cet espace temporaire de travail ! 
+    p
+      | 👋 Salut, je suis 
+      a(href="/a-propos/") tam kien duong
+      |, bienvenue dans cet espace temporaire de travail ! 
 
 h2 journal
 
-each year in years.reverse()
+each year in years.filter(y => y == "2023").reverse()
   h3= year
   
   - entries = journal_byyear[year].reverse()
@@ -65,6 +68,9 @@ each year in years.reverse()
           span(style="color: #aaa;")  • 
 
 p
+  a(href="/journal/") 🗄️ les archives
+
+p 
   a(href="/feed.xml") 📮 fil rss
 
 
