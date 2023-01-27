@@ -10,4 +10,7 @@ block content
   article
     h1 !{ title }
     p.subtitle #{ prettyDate }
+
+    section !{ filters.toc(content) }
+
     section !{ content }
