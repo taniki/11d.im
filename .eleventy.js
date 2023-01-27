@@ -1,9 +1,14 @@
 const pluginRss = require("@11ty/eleventy-plugin-rss");
+const pluginTOC = require('eleventy-plugin-toc');
+
+const emoji = require('markdown-it-emoji');
+const markdownItAnchor = require('markdown-it-anchor')
 
 module.exports = function(eleventyConfig) {
 
     // plugins
     eleventyConfig.addPlugin(pluginRss);
+    eleventyConfig.addPlugin(pluginTOC)
     eleventyConfig.addLiquidFilter("dateToRfc3339", pluginRss.dateRfc3339);
 
     // supported formats
@@ -18,9 +23,18 @@ module.exports = function(eleventyConfig) {
     eleventyConfig.addPassthroughCopy("admin")
     eleventyConfig.addPassthroughCopy("images")
 
+    // filters
+    global.filters = eleventyConfig.javascriptFunctions;
+
+    eleventyConfig.setPugOptions({ // and here
+        globals: ['filters']
+    });
+
     // custom markdown
     let markdownIt = require("markdown-it")
     let md = markdownIt({html: true, linkify: true })
+        .use(markdownItAnchor)
+        .use(emoji)
         .use(require('./md-tufte/sidenote'))
         .use(require('./md-tufte/marginnote'))
 
