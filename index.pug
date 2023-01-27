@@ -77,9 +77,11 @@ p
 h2 tempus fugit
 
 p
-    each entry, index in collections.semaines
+    each entry, index in collections.semaines.reverse()
         span
             a(href=entry.url) !{ entry.data.title }
+        unless index == collections.semaines.length-1
+          span(style="color: #aaa;")  • 
 
 p
     a(href="/tempusfugit.xml") 📮 fil rss
