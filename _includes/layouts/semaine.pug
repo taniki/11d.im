@@ -1,0 +1,9 @@
+extends ./journal.pug
+
+block append article
+  if others && others.length > 0
+    h2 jeter un oeil à la semaine des autres
+    ul
+      each other in others
+        li
+          a(href=other.url)= other.name

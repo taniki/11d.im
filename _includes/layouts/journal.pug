@@ -8,9 +8,10 @@ block content
     var prettyDate = `${day}.${month}.${year}`
 
   article
-    h1 !{ title }
-    p.subtitle #{ prettyDate }
-
-    section !{ filters.toc(content) }
-
-    section !{ content }
+    block article
+      h1 !{ title }
+      p.subtitle #{ prettyDate }
+     
+      section !{ filters.toc(content) }
+     
+      section !{ content }
