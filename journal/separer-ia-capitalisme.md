@@ -178,7 +178,7 @@ Qu'ils arrêteront de chercher à l'être ?
 >
 > [How Google's Bard AI could shake up search](https://www.platformer.news/p/how-googles-bard-ai-could-shake-up)
 
-Cette différence peut être transformée en capital supplémentaire à accumuler.
+Est-ce que c'est l'appareil productif qui devient couteux ou bien est-ce que c'est le travail qui devient meilleur ? Cette différence peut être transformée en capital supplémentaire à accumuler.
 
 La tautologie "nous vivons dans la société dans laquelle nous vivons" fait qu'on ne peut pas non plus espérer grand-chose d'autre de l'exploitation de cette technologie.
 
