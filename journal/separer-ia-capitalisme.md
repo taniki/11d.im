@@ -30,7 +30,7 @@ Le texte ultime n'existera sans doute jamais, cependant je suis assez frustré p
 
 Ce qu'on appelle intelligence artificielle dans ce contexte est des *modèles de langage*.
 
-Dans le prolongement, certains parlent de *general artificial intelligence*.
+Dans le prolongement, certains parlent de *artificial general intelligence*.
 C'est un terme qui est quelque part utilisé comme un horizon pour la recherche scientifique et une diversion pour ne pas parler des sujets qui fâchent.
 
 Un modèle de langage est grosso modo l'assemblage d'un dispositif d'entrainement qui produit un modèle préentrainé et d'un dispositif d'inférence qui utilise le produit précédent pour calculer une prédiction.
