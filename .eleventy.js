@@ -4,6 +4,8 @@ const pluginTOC = require('eleventy-plugin-toc');
 const emoji = require('markdown-it-emoji');
 const markdownItAnchor = require('markdown-it-anchor')
 
+const UpgradeHelper = require("@11ty/eleventy-upgrade-help");
+
 module.exports = function(eleventyConfig) {
 
     // plugins
@@ -71,4 +73,6 @@ module.exports = function(eleventyConfig) {
         collection => collection
         .getFilteredByGlob(['./semaines/*.md'])
     )
+
+    eleventyConfig.addPlugin(UpgradeHelper);
 }

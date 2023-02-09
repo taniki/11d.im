@@ -19,10 +19,11 @@
   },
   "homepage": "https://github.com/taniki/11d.im#readme",
   "devDependencies": {
-    "@11ty/eleventy": "^1.0.2",
+    "@11ty/eleventy": "^2.0.0",
     "@11ty/eleventy-plugin-rss": "^1.2.0"
   },
   "dependencies": {
+    "@11ty/eleventy-upgrade-help": "^2.0.5",
     "@octokit/auth-app": "^4.0.8",
     "@octokit/auth-token": "^3.0.3",
     "@octokit/request": "^6.2.3",
