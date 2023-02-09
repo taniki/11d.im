@@ -9,7 +9,7 @@ Tout d'abord, commençons par une prévention sur la forme.
 Ceci est un article de blog qui a surtout pour intention d'organiser ma réflexion sur divers thèmes.
 Je transformerai sans doute ce texte en quelque chose de plus documenté avec un travail de références une fois que j'aurai une idée claire sur le dispositif.
 C'est donc avant tout un cheminement d'intérêt légèrement rédigé.
-Je suppose que les personnes averties économiquement vont trouver ce texte *cringe*, j'apprends cette grille de lecture et essaie de faire sens de cette vision du monde.
+Je suppose que les personnes averties en science économique vont trouver ce texte *cringe*, j'apprends cette grille de lecture et essaie de faire sens de cette vision du monde.
 Cela peut être intéressant de partager comment les mots-clés s'articulent dans ma tête et comment cela oriente mes lectures.
 
 Il y aura certainement à boire et à manger pour tout le monde, c'est un buffet sans être de la grande cuisine.
@@ -76,7 +76,7 @@ Nos modes de cognition et d'apprentissage sont en décalage avec les modes des m
 ## capitalisme
 
 Cela étant dit, le débat et la conversation ne concernent pas du tout cet aspect scientifique.
-Pour comprendre, ce qui se dit et ce qui se passe, mon opinion est qu'il s'agit avant tout de problématiques du système capitalisme.
+Pour comprendre, ce qui se dit et ce qui se passe, mon opinion est qu'il s'agit avant tout de problématiques du système capitaliste.
 Le titre dévoile déjà cet angle de lecture.
 Rentrons donc dans le vif du sujet.
 
