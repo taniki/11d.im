@@ -20,6 +20,8 @@ Pour rédiger et travailler un billet, j'aime bien me reposer sur la structure d
 vim journal/$(date +%Y%m%d%H%M%S).md
 ```
 
+Il y a aussi moyen de [publier par email](https://11d.im/yo/2021-05-19-yo/).
+
 ## publier
 
 ```
