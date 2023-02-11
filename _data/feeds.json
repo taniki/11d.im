@@ -253,12 +253,6 @@
   },
   {
     "type": "rss",
-    "xmlUrl": "https://www.acpm.fr/rss/feed/my_feed",
-    "htmlUrl": "http://example.com/",
-    "title": "My RSS Feed"
-  },
-  {
-    "type": "rss",
     "xmlUrl": "https://medium.com/feed/news-catalyst",
     "htmlUrl": "https://medium.com/news-catalyst?source=rss----eebd193fd505---4",
     "title": "News Catalyst - Medium"
