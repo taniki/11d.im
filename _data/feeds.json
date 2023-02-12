@@ -574,5 +574,17 @@
     "xmlUrl": "https://infrequently.org/feed/",
     "htmlUrl": "https://infrequently.org/feed/",
     "title": "Infrequently Noted"
+  },
+  {
+    "type": "rss",
+    "xmlUrl": "https://www.profgalloway.com/feed/",
+    "htmlUrl": "https://www.profgalloway.com/",
+    "title": "No Mercy / No Malice"
+  },
+  {
+    "type": "rss",
+    "xmlUrl": "https://nicolas.loeuillet.org/feeds/all.atom.xml",
+    "htmlUrl": "https://nicolas.loeuillet.org/",
+    "title": "Nicolas L\u0153uillet"
   }
 ]
