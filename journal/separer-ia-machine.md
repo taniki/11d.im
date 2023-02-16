@@ -20,7 +20,7 @@ Pour comprendre les enjeux matériels de l'intelligence matérielle, il faut en 
 L'IA, aujourd'hui, est surtout une question de calculs qui tournent sur des machines.
 Mettons de côté les produits de l'IA pour voir les questions d'infrastructure technique.
 À mon avis, il y a au moins deux dimensions : les ordinateurs et les réseaux.
-Pour cet article, j'aimerais me concentrer sur ce qui permet aux IA de fonctionner : la capacité de calcul.
+Pour cet article, je vais me concentrer sur ce qui permet aux IA de fonctionner : la capacité de calcul.
 
 [ia-capitalisme]: /journal/separer-ia-capitalisme/
 
