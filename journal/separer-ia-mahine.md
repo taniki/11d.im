@@ -106,12 +106,19 @@ La consommation de ressources est ainsi déportée et vaguement optimisée.
 On est loin d'une combinaison entre *edge computing* (calcul fait en bout de chaine) et de l'intelligence artificielle personnalisée.
 Peut-être qu'avoir ces technologies à disposition sera trop coûteux et donc fera relativiser leur utilité.
 
+
+## conclusion
+
 On ne pourra parler de démocratisation de ces technologies seulement quand la production et la personnalisation des modèles seront à la portée de tous.
 Pas nécessairement sous une forme individualiste, il a des options qui tendent vers le commun comme [petals].
 En attendant, c'est donc surtout une manière pour les géants du numérique (Amazon, Microsoft et secondairement Google) de vendre et d'exploiter leur accumulation de ressources matérielles sous forme de location, autrement dit du capital.
 
 J'ai également hâte de voir une ribambelle d'entrepreneurs gratter un morceau du gâteau en vendant une expertise qui sera une surtaxe sur l'accès aux nuages de calcul, *Ponzi scheme style*, et en prenant bien soin de ne produire aucune valeur au passage.
 (Non.)
+
+En étant le dernier vecteur technologique à la mode, l'IA et l'intensité des calculs qui font partie de flux matériels et financiers.
+Il semble donc important d'avoir ce contexte en texte quand on cherche à comprendre la gravité affichée, les moyens déployés par les US pour défendre Taïwan.
+Chaque requête, produit, service ou startup sont également une contribution à ce cycle industriel.
 
 
 [petals]: https://github.com/bigscience-workshop/petals
