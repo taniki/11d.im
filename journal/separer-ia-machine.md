@@ -129,7 +129,7 @@ Chaque requête, produit, service ou startup sont également une contribution à
 ### bibliographie
 
 - Miller, Chris. Chip War: The Fight for the World’s Most Critical Technology. First Scribner hardcover edition. New York: Scribner, an imprint of Simon & Schuster, 2022.
-
+ Klein, Matthew C., and Michael Pettis. Trade Wars Are Class Wars: How Rising Inequality Distorts the Global Economy and Threatens International Peace: With a New Preface. New Haven: Yale University Press, 2021.
 - Cardon, Dominique, Jean-Philippe Cointet, and Antoine Mazières. “La Revanche Des Neurones: L’invention Des Machines Inductives et La Controverse de l’intelligence Artificielle.” Réseaux n° 211, no. 5 (November 2, 2018): 173–220. https://doi.org/10.3917/res.211.0173.
 
 
