@@ -1,0 +1,33 @@
+---
+layout: layouts/base
+title: ~/semaines
+---
+
+-
+    let years = [
+      ... new Set(
+        collections
+          .semaines
+          .map(e => (new Date(e.date)).getFullYear())
+      )
+    ]
+
+h1 le temps qui passe
+
+p
+    a(href="/tempusfugit.xml") 📮 fil rss
+
+each year in years
+    h2= year
+    -
+        entries = collections
+            .semaines
+            .filter(e => (new Date(e.date)).getFullYear() == year)
+            .reverse()
+    p
+        each entry, index in entries
+            - title = entry.data.title.replace(`${year}w`, 'semaine ')
+            span
+                a(href=entry.url) !{ title }
+                unless index == entries.length-1
+                    span(style="color: #aaa;")  • 
