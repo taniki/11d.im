@@ -586,5 +586,23 @@
     "xmlUrl": "https://nicolas.loeuillet.org/feeds/all.atom.xml",
     "htmlUrl": "https://nicolas.loeuillet.org/",
     "title": "Nicolas L\u0153uillet"
+  },
+  {
+    "type": "rss",
+    "xmlUrl": "https://igor.milhit.ch/blog/index.xml",
+    "htmlUrl": "https://igor.milhit.ch/blog/",
+    "title": "Blog on iGor milhit"
+  },
+  {
+    "type": "rss",
+    "xmlUrl": "https://gilest.org/feed/index.xml",
+    "htmlUrl": "https://gilest.org/",
+    "title": "gilest.org"
+  },
+  {
+    "type": "rss",
+    "xmlUrl": "https://blog.alistairuff.com/feed",
+    "htmlUrl": "https://blog.alistairuff.com/",
+    "title": "alistairuff"
   }
 ]
