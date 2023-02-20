@@ -20,7 +20,7 @@ module.exports = function(eleventyConfig) {
         "woff"
     ])
 
-    eleventyConfig.addPassthroughCopy("admin")
+    eleventyConfig.addPassthroughCopy("assets")
     eleventyConfig.addPassthroughCopy("images")
 
     // filters
