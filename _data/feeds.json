@@ -147,7 +147,7 @@
     "type": "rss",
     "xmlUrl": "https://www.frustrationmagazine.fr/feed/",
     "htmlUrl": "https://www.frustrationmagazine.fr/",
-    "title": "FRUSTRATION"
+    "title": "Frustration Magazine"
   },
   {
     "type": "rss",
@@ -604,5 +604,29 @@
     "xmlUrl": "https://blog.alistairuff.com/feed",
     "htmlUrl": "https://blog.alistairuff.com/",
     "title": "alistairuff"
+  },
+  {
+    "type": "rss",
+    "xmlUrl": "https://news.raphaelbastide.com/rss",
+    "htmlUrl": "https://news.raphaelbastide.com/",
+    "title": "Rapha\u00ebl Bastide News"
+  },
+  {
+    "type": "rss",
+    "xmlUrl": "https://adactio.com/rss/",
+    "htmlUrl": "https://adactio.com/",
+    "title": "Adactio"
+  },
+  {
+    "type": "rss",
+    "xmlUrl": "https://adactio.com/links/rss",
+    "htmlUrl": "https://adactio.com/links/",
+    "title": "Adactio: Links"
+  },
+  {
+    "type": "rss",
+    "xmlUrl": "https://notes.jim-nielsen.com/feed.xml",
+    "htmlUrl": "https://notes.jim-nielsen.com/",
+    "title": "Jim Nielsen\u2019s Notes"
   }
 ]
