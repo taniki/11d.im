@@ -1,0 +1,25 @@
+---
+title: à propos de ce site
+short: 11d.im
+---
+
+> Some people see art as a matter of control. I see it mostly as a matter of self-control. It’s like this: in me there’s a story that wants to be told. It is my end; I am its means. If I can keep myself, my ego, my wishes and opinions, my mental junk, out of the way and find the focus of the story, and follow the movement of the story, the story will tell itself.
+>
+> Ursula Le Guin, *Steering the Craft* (1998)
+
+Ce site est le produit de la rencontre entre ma volonté de continuer à apprendre continuellement et à (apprendre) raconter ce que j'apprends.
+C'est également la dernière itération en date d'une [longue lignée d'étalement maladroite de mes pensées](/notices/cimetierre-sites-web).
+
+C'est également une tentative de création d'un espace minimaliste et frugale.
+La mise en page est une utilisation directe de [tufte.css](https://edwardtufte.github.io/tufte-css/).
+
+## les coulisses
+
+Ce site utilise [11ty](https://www.11ty.dev/) pour générer son contenu sous la forme de pages statiques.
+Le [code source](https://github.com/taniki/11d.im) est disponible sur GitHub.
+La plateforme est également [le lieu où sont planifié les évolutions](https://github.com/taniki/11d.im/issues).
+C'est aussi [l'endroit qui sert de centrale d'édition](https://github.com/taniki/11d.im/pulls).
+
+Le site est publié automatiquement sur [netlify](https://netlify.com).
+
+J'utilise des [statistiques d'audience](https://plausible.io/11d.im/) avoir une certaine idée de l'usage et de l'utilité du site et de son contenu.
