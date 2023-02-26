@@ -3,6 +3,7 @@ const pluginTOC = require('eleventy-plugin-toc');
 
 const emoji = require('markdown-it-emoji');
 const markdownItAnchor = require('markdown-it-anchor')
+const wikilinks = require('@gardeners/markdown-it-wikilinks')
 
 module.exports = function(eleventyConfig) {
 
@@ -35,6 +36,12 @@ module.exports = function(eleventyConfig) {
     let md = markdownIt({html: true, linkify: true })
         .use(markdownItAnchor)
         .use(emoji)
+        .use(wikilinks({
+            uriSuffix: '/',
+             postProcessLabel: (label) => {
+                return label.split('/')[label.split('/').length - 1]
+            },
+        }))
         .use(require('./md-tufte/sidenote'))
         .use(require('./md-tufte/marginnote'))
 
