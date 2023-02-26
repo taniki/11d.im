@@ -23,6 +23,7 @@
     "@11ty/eleventy-plugin-rss": "^1.2.0"
   },
   "dependencies": {
+    "@gardeners/markdown-it-wikilinks": "^1.5.1",
     "@octokit/auth-app": "^4.0.8",
     "@octokit/auth-token": "^3.0.3",
     "@octokit/request": "^6.2.3",
