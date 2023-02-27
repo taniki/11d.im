@@ -43,6 +43,12 @@
   },
   {
     "type": "rss",
+    "xmlUrl": "https://blog.alistairuff.com/feed",
+    "htmlUrl": "https://blog.alistairuff.com/",
+    "title": "alistairuff"
+  },
+  {
+    "type": "rss",
     "xmlUrl": "https://anniceris.blogspot.com/feeds/posts/default",
     "htmlUrl": "https://anniceris.blogspot.com/",
     "title": "Anniceris"
@@ -70,12 +76,6 @@
     "xmlUrl": "https://axle.design/feed.rss",
     "htmlUrl": "https://axle.design/",
     "title": "Axle"
-  },
-  {
-    "type": "rss",
-    "xmlUrl": "https://www.arkadymartine.net/blog?format=rss",
-    "htmlUrl": "https://www.arkadymartine.net/blog/",
-    "title": "BLOG - Arkady Martine"
   },
   {
     "type": "rss",
@@ -109,6 +109,12 @@
   },
   {
     "type": "rss",
+    "xmlUrl": "https://www.arkadymartine.net/blog?format=rss",
+    "htmlUrl": "https://www.arkadymartine.net/blog/",
+    "title": "BLOG - Arkady Martine"
+  },
+  {
+    "type": "rss",
     "xmlUrl": "https://www.reforge.com/blog?format=rss",
     "htmlUrl": "https://www.reforge.com/blog/",
     "title": "Blog - Reforge"
@@ -133,9 +139,9 @@
   },
   {
     "type": "rss",
-    "xmlUrl": "https://www.contretemps.eu/feed/",
-    "htmlUrl": "https://www.contretemps.eu/",
-    "title": "CONTRETEMPS"
+    "xmlUrl": "https://cassie.codes/feed.xml",
+    "htmlUrl": "https://cassie.codes/feed.xml",
+    "title": "cassie.codes"
   },
   {
     "type": "rss",
@@ -154,6 +160,12 @@
     "xmlUrl": "https://code.larlet.fr/feed_rss_created.xml",
     "htmlUrl": "https://code.larlet.fr/",
     "title": "Code.larlet.fr"
+  },
+  {
+    "type": "rss",
+    "xmlUrl": "https://www.contretemps.eu/feed/",
+    "htmlUrl": "https://www.contretemps.eu/",
+    "title": "CONTRETEMPS"
   },
   {
     "type": "rss",
@@ -205,6 +217,12 @@
   },
   {
     "type": "rss",
+    "xmlUrl": "https://gilest.org/feed/index.xml",
+    "htmlUrl": "https://gilest.org/",
+    "title": "gilest.org"
+  },
+  {
+    "type": "rss",
     "xmlUrl": "https://visitmy.website/feed.xml",
     "htmlUrl": "https://visitmy.website/",
     "title": "Harsh Browns"
@@ -220,12 +238,6 @@
     "xmlUrl": "https://ilovetypography.com/feed",
     "htmlUrl": "https://ilovetypography.com/",
     "title": "I Love Typography"
-  },
-  {
-    "type": "rss",
-    "xmlUrl": "https://www.itchban.com/blog?format=rss",
-    "htmlUrl": "https://www.itchban.com/blog/",
-    "title": "ITCHBAN.com / Blog - itchban"
   },
   {
     "type": "rss",
@@ -247,6 +259,12 @@
   },
   {
     "type": "rss",
+    "xmlUrl": "https://www.itchban.com/blog?format=rss",
+    "htmlUrl": "https://www.itchban.com/blog/",
+    "title": "ITCHBAN.com / Blog - itchban"
+  },
+  {
+    "type": "rss",
     "xmlUrl": "https://www.lemonde.fr/jeux-video/rss_full.xml",
     "htmlUrl": "https://www.lemonde.fr/jeux-video/rss_full.xml",
     "title": "Jeux vid\u00e9o : Toute l\u2019actualit\u00e9 sur Le Monde.fr."
@@ -262,6 +280,12 @@
     "xmlUrl": "https://notes.jim-nielsen.com/feed.xml",
     "htmlUrl": "https://notes.jim-nielsen.com/",
     "title": "Jim Nielsen\u2019s Notes"
+  },
+  {
+    "type": "rss",
+    "xmlUrl": "https://jonathangray.org/feed.xml",
+    "htmlUrl": "https://jonathangray.org/",
+    "title": "jonathangray.org \u2013 jonathan w. y. gray"
   },
   {
     "type": "rss",
@@ -295,9 +319,21 @@
   },
   {
     "type": "rss",
+    "xmlUrl": "https://5ika.ch/posts/rss.xml",
+    "htmlUrl": "https://5ika.ch/posts",
+    "title": "Le blog de 5ika"
+  },
+  {
+    "type": "rss",
     "xmlUrl": "https://esjpro.substack.com/feed",
     "htmlUrl": "https://esjpro.substack.com/",
     "title": "Le d\u00e9brief' Media de l'ESJ PRO"
+  },
+  {
+    "type": "rss",
+    "xmlUrl": "https://lepasduchatnoir.com/feed/",
+    "htmlUrl": "https://lepasduchatnoir.com/",
+    "title": "le pas du chat noir \u2013 olivier laffargue"
   },
   {
     "type": "rss",
@@ -343,6 +379,18 @@
   },
   {
     "type": "rss",
+    "xmlUrl": "https://www.mindmedia.fr/feed/",
+    "htmlUrl": "https://www.mindmedia.fr/",
+    "title": "mind Media"
+  },
+  {
+    "type": "rss",
+    "xmlUrl": "http://blog.alphoenix.net/feed/",
+    "htmlUrl": "http://blog.alphoenix.net/",
+    "title": "misc.alphoenix.net"
+  },
+  {
+    "type": "rss",
     "xmlUrl": "https://pmorinerie.net/rss/shared.php",
     "htmlUrl": "http://readitlaterlist.com/users/kemenaran/feed/all",
     "title": "My Reading List: Read and Unread"
@@ -352,6 +400,12 @@
     "xmlUrl": "http://getpocket.com/users/tkduong/feed/all",
     "htmlUrl": "http://readitlaterlist.com/users/tkduong/feed/all",
     "title": "My Reading List: Read and Unread"
+  },
+  {
+    "type": "rss",
+    "xmlUrl": "http://n-gate.com/index.atom",
+    "htmlUrl": "http://n-gate.com/index.atom",
+    "title": "n-gate.com."
   },
   {
     "type": "rss",
@@ -421,9 +475,9 @@
   },
   {
     "type": "rss",
-    "xmlUrl": "https://www.roughtype.com/?feed=rss2",
-    "htmlUrl": "https://www.roughtype.com/",
-    "title": "ROUGH TYPE"
+    "xmlUrl": "https://www.quaternum.net/atom.xml",
+    "htmlUrl": "https://www.quaternum.net/atom.xml",
+    "title": "quaternum.net \u2014 carnet d'Antoine"
   },
   {
     "type": "rss",
@@ -436,6 +490,12 @@
     "xmlUrl": "https://robinrendle.com/feed.xml",
     "htmlUrl": "https://robinrendle.com/feed.xml",
     "title": "Robin Rendle"
+  },
+  {
+    "type": "rss",
+    "xmlUrl": "https://www.roughtype.com/?feed=rss2",
+    "htmlUrl": "https://www.roughtype.com/",
+    "title": "ROUGH TYPE"
   },
   {
     "type": "rss",
@@ -484,6 +544,12 @@
     "xmlUrl": "https://themarkup.org/feeds/rss.xml",
     "htmlUrl": "https://themarkup.org/",
     "title": "The Markup - All Stories"
+  },
+  {
+    "type": "rss",
+    "xmlUrl": "https://thesephist.com/index.xml",
+    "htmlUrl": "https://thesephist.com/",
+    "title": "thesephist"
   },
   {
     "type": "rss",
@@ -550,66 +616,6 @@
     "xmlUrl": "https://zettelkasten.de/feed.atom",
     "htmlUrl": "https://zettelkasten.de/",
     "title": "Zettelkasten.de"
-  },
-  {
-    "type": "rss",
-    "xmlUrl": "https://blog.alistairuff.com/feed",
-    "htmlUrl": "https://blog.alistairuff.com/",
-    "title": "alistairuff"
-  },
-  {
-    "type": "rss",
-    "xmlUrl": "https://cassie.codes/feed.xml",
-    "htmlUrl": "https://cassie.codes/feed.xml",
-    "title": "cassie.codes"
-  },
-  {
-    "type": "rss",
-    "xmlUrl": "https://gilest.org/feed/index.xml",
-    "htmlUrl": "https://gilest.org/",
-    "title": "gilest.org"
-  },
-  {
-    "type": "rss",
-    "xmlUrl": "https://jonathangray.org/feed.xml",
-    "htmlUrl": "https://jonathangray.org/",
-    "title": "jonathangray.org \u2013 jonathan w. y. gray"
-  },
-  {
-    "type": "rss",
-    "xmlUrl": "https://lepasduchatnoir.com/feed/",
-    "htmlUrl": "https://lepasduchatnoir.com/",
-    "title": "le pas du chat noir \u2013 olivier laffargue"
-  },
-  {
-    "type": "rss",
-    "xmlUrl": "https://www.mindmedia.fr/feed/",
-    "htmlUrl": "https://www.mindmedia.fr/",
-    "title": "mind Media"
-  },
-  {
-    "type": "rss",
-    "xmlUrl": "http://blog.alphoenix.net/feed/",
-    "htmlUrl": "http://blog.alphoenix.net/",
-    "title": "misc.alphoenix.net"
-  },
-  {
-    "type": "rss",
-    "xmlUrl": "http://n-gate.com/index.atom",
-    "htmlUrl": "http://n-gate.com/index.atom",
-    "title": "n-gate.com."
-  },
-  {
-    "type": "rss",
-    "xmlUrl": "https://www.quaternum.net/atom.xml",
-    "htmlUrl": "https://www.quaternum.net/atom.xml",
-    "title": "quaternum.net \u2014 carnet d'Antoine"
-  },
-  {
-    "type": "rss",
-    "xmlUrl": "https://thesephist.com/index.xml",
-    "htmlUrl": "https://thesephist.com/",
-    "title": "thesephist"
   },
   {
     "type": "rss",
