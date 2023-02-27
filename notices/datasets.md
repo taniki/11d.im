@@ -3,6 +3,8 @@ title: jeux de données
 short: données (jeux de)
 ---
 
+Quelques jeux de données que j'ai produit et maintenu.
+
 ## Tutotal 2022
 
 [![scrape tweets](https://github.com/taniki/tutotal2022/actions/workflows/scrape.yml/badge.svg)](https://github.com/taniki/tutotal2022/actions/workflows/scrape.yml)

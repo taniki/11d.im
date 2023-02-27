@@ -1,3 +1,4 @@
 ---
 title: décentralisation
+status: draft
 ---

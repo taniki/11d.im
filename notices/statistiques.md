@@ -1,4 +1,5 @@
 ---
 title: statistiques
+status: draft
 ---
 

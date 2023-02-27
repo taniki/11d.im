@@ -15,12 +15,15 @@ title: 11d.im
     return formated
   }
 
-  let notices = collections.notices.reduce((acc, n)=>{
-    let title = (n.data.short) ? n.data.short : n.data.title
-    let letter = title.charAt(0).toLowerCase()
-    if (!(letter in acc)) acc[letter] = []
-    acc[letter].push(n)
-    return acc
+  let notices = collections
+    .notices
+    .filter(n => n.data.status != "draft")
+    .reduce((acc, n)=>{
+      let title = (n.data.short) ? n.data.short : n.data.title
+      let letter = title.charAt(0).toLowerCase()
+      if (!(letter in acc)) acc[letter] = []
+      acc[letter].push(n)
+      return acc
   }, {})
   
   let journal_byyear = collections

@@ -1,5 +1,6 @@
 ---
 title: product management
+status: draft
 ---
 
 ## Des notions

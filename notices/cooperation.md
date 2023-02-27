@@ -1,3 +1,4 @@
 ---
 title: coopérative
+status: draft
 ---
