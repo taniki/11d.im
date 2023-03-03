@@ -1,3 +1,4 @@
 {
-  "layout": "layouts/highlight.pug"
+  "layout": "layouts/highlight.pug",
+  "date": "git Last Modified"
 }
