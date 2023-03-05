@@ -1,0 +1,28 @@
+---
+layout: layouts/base
+title: ~/liens
+eleventyExcludeFromCollections: true
+---
+-
+  let formatDate = (text) => {
+    let d = new Date(text)
+
+    let day = (d.getDate()).toString().padStart(2, '0')
+    let month = (d.getMonth()+1).toString().padStart(2, '0')
+    let year = d.getFullYear()
+
+    let formated = `${day}.${month}.${year}`
+
+    return formated
+  }
+
+h1 flux de liens
+
+for link in collections.liens
+  article
+    h2
+      a(href=link.data.url) !{ link.data.title }
+
+    a(href=link.url) !{ formatDate(link.date) }
+
+    section !{ link.content }
