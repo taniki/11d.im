@@ -78,6 +78,11 @@ module.exports = function(eleventyConfig) {
         collection => collection
         .getFilteredByGlob(['./semaines/*.md'])
     )
+    
+    eleventyConfig.addCollection("liens",
+        collection => collection
+        .getFilteredByGlob(['./liens/*.md'])
+    )
 
     eleventyConfig.addCollection("posts",
         collection => collection.getAllSorted()
