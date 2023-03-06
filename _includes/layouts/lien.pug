@@ -6,11 +6,13 @@ block content
     const month = (page.date.getMonth()+1).toString().padStart(2, '0')
     const year = page.date.getFullYear()
     var prettyDate = `${day}.${month}.${year}`
+  - let site = url.split('/')[2]
 
   article
     block article
       h1
         a(href=url) !{ title }
+      p.subtitle #{ site }
       p.subtitle #{ prettyDate }
      
       section !{ filters.toc(content) }

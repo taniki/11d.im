@@ -18,10 +18,17 @@ eleventyExcludeFromCollections: true
 
 h1 flux de liens
 
+p
+  a(href='/liens.xml') 📮 fil rss
+
 for link in collections.liens.reverse()
+  
+  - let site = link.data.url.split('/')[2]
+
   section
     h2
       a(href=link.data.url) !{ link.data.title }
+      |  (#{site})
 
     a(href=link.url) !{ formatDate(link.date) }
 
