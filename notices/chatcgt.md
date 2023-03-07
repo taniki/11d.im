@@ -3,8 +3,8 @@ title: ChatCGT
 ---
 
 Pendant quelques jours, j'ai tenté une sorte de happening sur LinkedIn.
-Le but était d'avoir un avant goût du travail de prompting d'un *large language model* tout en ayant un feedback sur la qualité des productions.
-Utiliser un produit OpenAI est discutable mais l'utiliser uniquement dans le contexte d'un produit Microsoft qui est déjà réputé pour être une antre de vacuité me semblait renverser la charge.
+Le but était d'avoir un avant-goût du travail de prompting d'un *large language model* tout en ayant un feedback sur la qualité des productions.
+Utiliser un produit OpenAI est discutable, mais l'utiliser uniquement dans le contexte d'un produit Microsoft qui est déjà réputé pour être un antre de vacuité me semblait renverser la charge.
 
 
 ## 13.02.2023 (1)
