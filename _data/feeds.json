@@ -331,6 +331,12 @@
   },
   {
     "type": "rss",
+    "xmlUrl": "https://blog.goe.land/index.xml",
+    "htmlUrl": "https://blog.goe.land/",
+    "title": "Le nid d'Eorn"
+  },
+  {
+    "type": "rss",
     "xmlUrl": "https://lepasduchatnoir.com/feed/",
     "htmlUrl": "https://lepasduchatnoir.com/",
     "title": "le pas du chat noir \u2013 olivier laffargue"
