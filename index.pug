@@ -97,6 +97,15 @@ p
 h2 fragments de web
 
 p
+  each lien, index in collections.liens.slice(0, 10)
+    - site = lien.data.url.split("/")[2]
+    span
+      a(href=lien.url) !{ lien.data.title }
+      span  (!{site})
+      unless index == 8
+        span(style="color: #aaa;")  • 
+
+p
   a(href="/liens/") 🗄️ les archives
 p
   a(href="/liens.xml") 📮 fil rss
