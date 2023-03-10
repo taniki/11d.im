@@ -229,6 +229,12 @@
   },
   {
     "type": "rss",
+    "xmlUrl": "https://nicolas.perriault.net/feed.xml",
+    "htmlUrl": "https://nicolas.perriault.net/",
+    "title": "Hi, I\u2019m Nicolas"
+  },
+  {
+    "type": "rss",
     "xmlUrl": "https://hypernews.co/rss/",
     "htmlUrl": "https://hypernews.co/",
     "title": "HyperNews"
