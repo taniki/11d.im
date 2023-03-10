@@ -25,7 +25,7 @@ p
 
 for link in collections.liens.reverse()
   
-  - let site = link.data.url.split('/')[2]
+  - let site = link.data.url.split('/')[2].replace("www.", "")
 
   section
     h2

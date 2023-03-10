@@ -98,7 +98,7 @@ h2 fragments de web
 
 p
   each lien, index in collections.liens.slice(0, 10)
-    - site = lien.data.url.split("/")[2]
+    - site = lien.data.url.split("/")[2].replace("www.", "")
     span
       a(href=lien.url) !{ lien.data.title }
       span  (!{site})
