@@ -85,6 +85,6 @@ module.exports = function(eleventyConfig) {
     )
 
     eleventyConfig.addCollection("posts",
-        collection => collection.getAllSorted()
+        collection => collection.getFilteredByGlob('**/*.md')
     )
 }
