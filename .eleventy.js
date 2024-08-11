@@ -84,7 +84,10 @@ module.exports = function(eleventyConfig) {
         .getFilteredByGlob(['./liens/*.md'])
     )
 
-    eleventyConfig.addCollection("posts",
-        collection => collection.getFilteredByGlob('**/*.md')
-    )
+    eleventyConfig
+        .addCollection("posts",
+            collection => collection
+                .getFilteredByGlob('**/*.md')
+                .filter(x => x.inputPath != './README.md')
+        )
 }
