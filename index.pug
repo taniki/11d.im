@@ -68,7 +68,7 @@ each year in years.filter(y => y == "2023").reverse()
   p
     each entry, index in entries
       span
-        a(href=entry.url) !{ entry.data.title }
+        a(href=entry.url) !{ filters.md(entry.data.title) }
         span(style="color: #aaa;") &nbsp;!{ formatDate(entry.date) }
         unless index == entries.length-1
           span(style="color: #aaa;")  • 
@@ -85,7 +85,7 @@ h2 tempus fugit
 p
     each entry, index in collections.semaines.reverse()
         span
-            a(href=entry.url) !{ entry.data.title }
+            a(href=entry.url) !{ filters.md(entry.data.title) }
         unless index == collections.semaines.length-1
           span(style="color: #aaa;")  • 
 p

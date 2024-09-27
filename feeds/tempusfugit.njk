@@ -1,11 +1,11 @@
 ---json
 {
-  "permalink": "liens.xml",
+  "permalink": "/tempusfugit.xml",
   "eleventyExcludeFromCollections": true,
   "metadata": {
-    "title": "11d.im - liens",
-    "url": "https://11d.im/liens/",
-    "feedUrl": "https://11d.im/liens.xml",
+    "title": "11d.im - notes hebdomadaires",
+    "url": "https://11d.im/",
+    "feedUrl": "https://11d.im/tempusfugit.xml",
     "author": {
       "name": "tam kien duong",
       "email": "tk@renard.ninja"
@@ -18,14 +18,14 @@
   <title>{{ metadata.title }}</title>
   <link href="{{ metadata.feedUrl }}" rel="self"/>
   <link href="{{ metadata.url }}"/>
-  <updated>{{ collections.liens | getNewestCollectionItemDate | dateToRfc3339 }}</updated>
+  <updated>{{ collections.semaines | getNewestCollectionItemDate | dateToRfc3339 }}</updated>
   <id>{{ metadata.url }}</id>
   <author>
     <name>{{ metadata.author.name }}</name>
     <email>{{ metadata.author.email }}</email>
   </author>
-  {%- for post in collections.liens | reverse %}
-  {% set absolutePostUrl %}{{ post.data.url | url | absoluteUrl(metadata.url) }}{% endset %}
+  {%- for post in collections.semaines | reverse %}
+  {% set absolutePostUrl %}{{ post.url | url | absoluteUrl(metadata.url) }}{% endset %}
   <entry>
     <title>{{ post.data.title }}</title>
     <link href="{{ absolutePostUrl }}"/>

@@ -50,5 +50,5 @@ each year in years.reverse()
         each entry, index in entries
             li
                 span(style="color: #aaa;") &nbsp;!{ formatDate(entry.date) }&nbsp;
-                a(href=entry.url) !{ entry.data.title }
+                a(href=entry.url) !{ filters.md(entry.data.title) }
 

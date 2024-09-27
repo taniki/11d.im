@@ -9,7 +9,7 @@ block content
 
   article
     block article
-      h1 !{ title }
+      h1 !{ filters.md(title) }
       p.subtitle #{ prettyDate }
      
       section !{ filters.toc(content) }

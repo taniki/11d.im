@@ -25,8 +25,9 @@ module.exports = function(eleventyConfig) {
     eleventyConfig.addPassthroughCopy("images")
 
     // filters
-    global.filters = eleventyConfig.javascriptFunctions;
+    eleventyConfig.addFilter('md', (content)=> md.renderInline(content))
 
+    global.filters = eleventyConfig.javascriptFunctions;
     eleventyConfig.setPugOptions({ // and here
         globals: ['filters']
     });
@@ -54,7 +55,7 @@ module.exports = function(eleventyConfig) {
             let x = ((a.data.short) ? a.data.short: a.data.title).toLowerCase()
             let y = ((b.data.short) ? b.data.short: b.data.title).toLowerCase()
 
-            return x.localeCompare(y)
+    return x.localeCompare(y)
         })
     )
 
@@ -84,7 +85,10 @@ module.exports = function(eleventyConfig) {
         .getFilteredByGlob(['./liens/*.md'])
     )
 
-    eleventyConfig.addCollection("posts",
-        collection => collection.getFilteredByGlob('**/*.md')
-    )
+    eleventyConfig
+        .addCollection("posts",
+            collection => collection
+                .getFilteredByGlob('**/*.md')
+                .filter(x => x.inputPath != './README.md')
+        )
 }
