@@ -50,7 +50,7 @@ module.exports = function(eleventyConfig) {
 
     eleventyConfig.addCollection("notices",
         collection => collection
-        .getFilteredByGlob("notices/*.md")
+        .getFilteredByGlob("./content/notices/*.md")
         .sort((a,b) => {
             let x = ((a.data.short) ? a.data.short: a.data.title).toLowerCase()
             let y = ((b.data.short) ? b.data.short: b.data.title).toLowerCase()
@@ -61,13 +61,13 @@ module.exports = function(eleventyConfig) {
 
     eleventyConfig.addCollection("journal",
         collection => collection
-        .getFilteredByGlob(['./journal/*.md', './yo/*.md'])
+        .getFilteredByGlob(['./content/journal/*.md', './content/yo/*.md'])
         .filter(x => !x.data.hidden)
     )
 
     eleventyConfig.addCollection("highlights",
         collection => collection
-        .getFilteredByGlob("highlights/*.md")
+        .getFilteredByGlob("./content/highlights/*.md")
         .sort((a,b)=> {
             if (a.data.author.last > b.data.author.last) return 1;
             else if (a.data.author.last < b.data.author.last) return -1;
@@ -77,18 +77,26 @@ module.exports = function(eleventyConfig) {
 
     eleventyConfig.addCollection("semaines",
         collection => collection
-        .getFilteredByGlob(['./semaines/*.md'])
+        .getFilteredByGlob(['./content/semaines/*.md'])
     )
     
     eleventyConfig.addCollection("liens",
         collection => collection
-        .getFilteredByGlob(['./liens/*.md'])
+        .getFilteredByGlob(['./content/liens/*.md'])
     )
 
     eleventyConfig
         .addCollection("posts",
             collection => collection
-                .getFilteredByGlob('**/*.md')
+                .getFilteredByGlob('./content/**/*.md')
                 .filter(x => x.inputPath != './README.md')
         )
+        
+    return {
+    	dir: {
+    	    input: 'content',
+    	    includes: '../_includes',
+    	    data: '../_data'
+    	}
+    }
 }
