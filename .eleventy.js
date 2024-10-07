@@ -21,6 +21,7 @@ module.exports = function(eleventyConfig) {
         "woff"
     ])
 
+    eleventyConfig.addPassthroughCopy("css")
     eleventyConfig.addPassthroughCopy("assets")
     eleventyConfig.addPassthroughCopy("images")
 
