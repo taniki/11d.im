@@ -26,6 +26,7 @@ layout: layouts/base
 - `2015-2016` [wekeypedia](http://wekeypedia.github.io/)
 - `2010-2013` [formism](http://formism.net/)
 - `2011     ` [PulseWeb](https://pulseweb.cortext.net/)
+- `2008     ` [Robotanic Garden](https://github.com/taniki/robotanic-garden)
 
 
 ## jeux de données
