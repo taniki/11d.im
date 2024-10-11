@@ -17,8 +17,27 @@ layout: layouts/base
 - `2024     ` [scraping des résultats des JO 2024](https://github.com/taniki/paris2024-data)
 - `2024     ` [données des élections législatives 2024](https://github.com/taniki/legislatives-2024)
 - `2023-2024` [paris2024.lol](https://paris2024.lol/)
+- `2022     ` [sondages autour de l'élection présidentielle de 2022](https://observablehq.com/collection/@taniki/election-presidentielle-france-2022)
+- `2021-2022` [tutotal](https://observablehq.com/@taniki/tutotal-2022)
+- `2021     ` [sondages autour des élections régionales de 2021](https://observablehq.com/collection/@taniki/elections-regionales-france-2021)
 - `2018     ` [gallica.lol](https://github.com/taniki/gallicalol)
 - `2017-2020` [data.gouv.fr](https://www.data.gouv.fr/fr/)
 - `2016     ` [comp.soc-of-philosophy](https://github.com/taniki/comp.soc-of-philosophy)
 - `2015-2016` [wekeypedia](http://wekeypedia.github.io/)
+- `2010-2013` [formism](http://formism.net/)
 - `2011     ` [PulseWeb](https://pulseweb.cortext.net/)
+
+
+## jeux de données
+
+- Élections législatives 2024
+- Archivage des comptes Twitter des candidat·es Rassemblement National
+- Paniers moyens de l'UFC Que Choisir
+- Les disparitions du Monde
+- Assemblée Nationale
+- Propluvia
+- FINESS
+- Annonces "data" sur Place de l'Emploi Public
+- Publicités politiques sur Snapchat
+- Archivage du compte twitter d'Etalab
+- Archivage du compte twitter de data.gouv.fr
