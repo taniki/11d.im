@@ -3,27 +3,23 @@ title: en ce moment
 layout: layouts/base
 ---
 
+# en ce moment
+
 Cette page est une now page.
 L'intention est de donner quelques nouvelles comme si on ne s'était pas vu depuis quelques mois. 
 https://encemoment.site/
 
 ## écriture
 
+J'écris par ici :
+
 - [le numérique est un champ de bataille](https://write.apreslanu.it/tk/)
-- journal
+- [journal](/journal/)
 - [offload](https://write.apreslanu.it/offload/)
 
-## clavier
-
-Changer de clavier de temps en temps est une manière d'introduire du nouveau dans mon quotidien.
-En ce moment, j'utilise un hhkb professionnal hybrid.
-J'en avais marre des claviers fait maison avec des petits défauts et la possibilité d'améliorer la chose constamment.
-Il me fallait un clavier simple, qui fonctionne sans que j'ai à faire quoi que soi.
-En plus, il est sans fil ce qui m'aide à avoir moins de bazar sur mon bureau.
-Cela me relaxe d'avoir que l'essentiel dans mon champ de vision.
-Ce n'est pas toujours comme cela.
-
 ## projets
+
+- liste de tous les [projets et travaux](/projets/)
 
 ### devenir journaliste avant 2027
 
@@ -37,4 +33,15 @@ Je prépare mon cours de programmation dans le master "Management, Innovation Nu
 
 ## lectures
 
-https://www.goodreads.com/user_challenges/46907962
+- [goodreads](https://www.goodreads.com/user_challenges/46907962)
+- [bookwyrm](https://lire.boitam.eu/)
+
+## clavier
+
+Changer de clavier de temps en temps est une manière d'introduire du nouveau dans mon quotidien.
+En ce moment, j'utilise un hhkb professionnal hybrid.
+J'en avais marre des claviers fait maison avec des petits défauts et la possibilité d'améliorer la chose constamment.
+Il me fallait un clavier simple, qui fonctionne sans que j'ai à faire quoi que soi.
+En plus, il est sans fil ce qui m'aide à avoir moins de bazar sur mon bureau.
+Cela me relaxe d'avoir que l'essentiel dans mon champ de vision.
+Ce n'est pas toujours comme cela.

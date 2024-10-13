@@ -8,3 +8,4 @@ Le [[/notices/narrateur]], la personne qui dit "je", de ce site est *tam kien du
 - Parcours d'études : psychologie, mathématiques, sociologie, statistiques, épistémologie, linguistique, anthropologie, systèmes complexes.
 - Parcours professionnel : recherche scientifique, informatique, communication, administration publique, données (ouvertes et publiques), médias.
 - [Projets et travaux](/projets/)
+- [En ce moment](/now/)
