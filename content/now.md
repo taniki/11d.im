@@ -1,6 +1,7 @@
 ---
 title: en ce moment
 layout: layouts/base
+date: git Last Modified
 ---
 
 # en ce moment
@@ -30,6 +31,17 @@ J'ai candidaté à la bourse de l'ONG [algorithmwatch](https://algorithmwatch.or
 Je prépare mon cours de programmation dans le master "Management, Innovation Numérique" à l'Instutit Mines-Télécom, le nouveau petit nom de Telecom Paris. L'idée général est d'apprendre à coder pour raconter à travers différents media comme la visualisation de données, le journalisme de données ou bien le jeu vidéo.
 
 ### homelab et auto-hébergement
+
+
+## apprentissages
+
+### mathématiques appliquées et informatique
+
+### lire et écrire
+
+- mieux lire
+- écrire de la fiction
+- écrire des articles journalistiques
 
 ## lectures
 
