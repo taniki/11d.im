@@ -62,7 +62,12 @@ module.exports = function(eleventyConfig) {
 
     eleventyConfig.addCollection("journal",
         collection => collection
-        .getFilteredByGlob(['./content/journal/*.md', './content/yo/*.md'])
+        .getFilteredByGlob([
+	    './content/journal/*.md',
+            './content/yo/*.md',
+	    './content/write.apreslanu.it/tk/*md',
+            './content/write.apreslanu.it/offload/*.md'
+	])
         .filter(x => !x.data.hidden)
     )
 
@@ -78,7 +83,10 @@ module.exports = function(eleventyConfig) {
 
     eleventyConfig.addCollection("semaines",
         collection => collection
-        .getFilteredByGlob(['./content/semaines/*.md'])
+        .getFilteredByGlob([
+	    './content/semaines/*.md',
+	    './content/write.apreslanu.it/weeknotes/*.md'
+	])
     )
     
     eleventyConfig.addCollection("liens",
