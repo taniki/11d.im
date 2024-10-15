@@ -11,6 +11,9 @@ block content
     block article
       h1 !{ filters.md(title) }
       p.subtitle #{ prettyDate }
+      if source
+        p
+          a(href=`${source}`) source
      
       section !{ filters.toc(content) }
      

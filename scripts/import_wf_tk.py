@@ -54,16 +54,18 @@ def write_posts(posts):
 
     for p in posts:
         filename = parser.parse(p['created']).strftime('%s')
+        url = source.replace('/api/collections', '').replace('posts', p['slug'])
         
         post = frontmatter.Post(
             p['body'],
             date = p['created'],
             title = p['title'],
-            url = f'{source.replace('/api/collection', '')}'
+            source = url,
         )
 
         print(filename)
         print(post['title'])
+        print(post['source'])
 
         frontmatter.dump(post, f'{destination}/{filename}.md')
     
