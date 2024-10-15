@@ -6,9 +6,16 @@ date: git Last Modified
 
 # en ce moment
 
-Cette page est une now page.
-L'intention est de donner quelques nouvelles comme si on ne s'était pas vu depuis quelques mois. 
-https://encemoment.site/
+Cette page est une [`/now` page](https://encemoment.site/).
+L'intention est de donner quelques nouvelles comme si on ne s'était pas vu depuis quelques mois.
+
+## temps partiel
+
+J'en avais marre d'attendre l'adoption de la semaine de 4 jours dans les entreprises.
+J'ai alors profité du dispositif de [congé parental partiel] pour passer en 4/5 ème.
+C'est une très bonne décision que j'aimerai raconter.
+
+[congé parental partiel]: https://www.service-public.fr/particuliers/vosdroits/F2332
 
 ## écriture
 
@@ -28,9 +35,10 @@ J'ai candidaté à la bourse de l'ONG [algorithmwatch](https://algorithmwatch.or
 
 ### coder pour raconter
 
-Je prépare mon cours de programmation dans le master "Management, Innovation Numérique" à l'Instutit Mines-Télécom, le nouveau petit nom de Telecom Paris. L'idée général est d'apprendre à coder pour raconter à travers différents media comme la visualisation de données, le journalisme de données ou bien le jeu vidéo.
+Je prépare mon cours de programmation dans le master "Management, Innovation Numérique" à l'Institut Mines-Télécom, le nouveau petit nom de Telecom Paris.
+L'idée générale est d'apprendre à coder pour raconter à travers différents médias comme la visualisation de données, le journalisme de données ou bien le jeu vidéo.
 
-### homelab et auto-hébergement
+### homelab et autohébergement de services numériques
 
 
 ## apprentissages
@@ -52,8 +60,8 @@ Je prépare mon cours de programmation dans le master "Management, Innovation Nu
 
 Changer de clavier de temps en temps est une manière d'introduire du nouveau dans mon quotidien.
 En ce moment, j'utilise un hhkb professionnal hybrid.
-J'en avais marre des claviers fait maison avec des petits défauts et la possibilité d'améliorer la chose constamment.
-Il me fallait un clavier simple, qui fonctionne sans que j'ai à faire quoi que soi.
-En plus, il est sans fil ce qui m'aide à avoir moins de bazar sur mon bureau.
+J'en avais marre des claviers faits maison avec des petits défauts et la possibilité d'améliorer la chose constamment.
+Il me fallait un clavier simple, qui fonctionne sans que j'aie à faire quoi que soi.
+En plus, il est sans fil ce qui m'aide à avoir moins de bazars sur mon bureau.
 Cela me relaxe d'avoir que l'essentiel dans mon champ de vision.
 Ce n'est pas toujours comme cela.
