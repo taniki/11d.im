@@ -4,6 +4,8 @@ title: 11d.im
 eleventyExcludeFromCollections: true
 ---
 -
+  let currentYear = 2024
+
   let formatDate = (text) => {
     let d = new Date(text)
 
@@ -60,7 +62,7 @@ div.epigraph
 
 h2 journal
 
-each year in years.filter(y => y == "2023").reverse()
+each year in years.filter(y => y == currentYear).reverse()
   h3= year
   
   - entries = journal_byyear[year].reverse()
