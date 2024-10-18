@@ -2,6 +2,7 @@
 title: en ce moment
 layout: layouts/base
 date: git Last Modified
+permalink: /now.html
 ---
 
 # en ce moment

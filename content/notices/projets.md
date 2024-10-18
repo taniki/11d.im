@@ -1,6 +1,7 @@
 ---
 title: projets et travaux
 layout: layouts/base
+permalink: /projets.html
 ---
 
 # projets et travaux
