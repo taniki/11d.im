@@ -115,13 +115,38 @@ p
 
 h2 passages
 
+p Des citations glanées de façon irrégulière au fil des années et des lectures.
+
+- 
+  let highlights = collections
+    .highlights
+    .reduce((acc, n)=>{
+      
+      const name = [
+        n.data.author.first,
+        n.data.author.middle,
+        n.data.author.last
+      ]
+      .filter(d => d != undefined)
+      .join(' ')
+      
+      if (!(name in acc)) acc[name] = []
+      
+      acc[name].push(n)
+      
+      return acc
+    }, {})
+
+
 p
-  each highlight, index in collections.highlights
-    span
-      b !{ highlight.data.author.first } !{ highlight.data.author.middle } !{ highlight.data.author.last }&nbsp;:&nbsp;
-      a(href=highlight.url) !{ highlight.data.title }
-      unless index == collections.highlights.length-1
-        span(style="color: #aaa;")  • 
+  each author, author_index in Object.entries(highlights)
+    b !{ author[0] }&nbsp;:&nbsp;
+    each book, book_index in author[1]
+      span
+        a(href=book.url) !{ book.data.title }
+
+        unless author_index == Object.entries(highlights).length - 1 && book_index == author[1].length - 1
+          span(style="color: #aaa;")  • 
 
 
 h2 notices
