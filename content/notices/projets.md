@@ -29,6 +29,7 @@ permalink: /projets.html
 - `2017-2020` [data.gouv.fr](https://www.data.gouv.fr/fr/)
 - `2016     ` [comp.soc-of-philosophy](https://github.com/taniki/comp.soc-of-philosophy)
 - `2015-2016` [wekeypedia](http://wekeypedia.github.io/)
+- `2013     ` [walter](https://github.com/taniki/walter)
 - `2010-2013` [formism](http://formism.net/)
 - `2011     ` [PulseWeb](https://pulseweb.cortext.net/)
 - `2008     ` [Robotanic Garden](https://github.com/taniki/robotanic-garden)
