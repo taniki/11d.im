@@ -1,8 +1,10 @@
+---
 title: Crime et ornement
 author:
-    - first: Adolf
-      last: Loos
+  first: Adolf
+  last: Loos
 ---
+
 Le maître maçon, le maître bâtisseur reçurent un tuteur. Le maître bâtisseur ne savait que bâtir des maisons : dans le style de son temps. Mais celui qui savait bâtir dans un quelconque style du passé, ayant perdu le contact avec son propre temps, lui le déraciné, le distordu, il devint le personnage dominant, lui, l'architecte.
 
 L'artisan ne pouvait pas beaucoup s'occuper de livres. L'architecte tirait tout des livres. Une immense littérature le pourvoyait  de tout ce qu'il fallait savoir. On n'imagine pas à quel point cette quantité énorme d'habiles publications a intoxiqué notre culture urbaine, à quele point elle a entravé toute réflexion propre. Que l'architecte ait telleent bien assimilé les formes au point d'être capable de les dessiner de mémoire, ou qu'il ait dû avoir sous les yeux l'oevre de référence pendant son travail de "création artistique", cela ne changeait rien au résultat. L'effet était toujours le même. C'était toujours une horreur. Et cette horreur grandissait à l'infini. Chacun aspirait à voir sa chose éternisée dans de nouvelles publications et un grand nombre de revues d'architecture s'empressaient à satisfaire la vanité des architectes. Et jusqu'à présent, il en est toujours ainsi.
