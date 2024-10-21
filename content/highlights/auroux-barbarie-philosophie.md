@@ -1,0 +1,10 @@
+---
+title: Barbarie et philosophie
+author:
+  first: Sylvain
+  last: Auroux
+---
+
+En général, on teste par questionnement. Qui est Jean-Noël Auguert ? Qu'est-ce que le théorème de Moivre ? Qu'est-ce qu'un moteur rotatif ? A quel philosophe, l'expression latine qui sert de titre à cette introduction est-elle une allusion ? Qu'est-ce qu'une bourride ? Qui a écrit, le roman ayant pour titre *Der Steppenwolf* ? Qu'est-ce que la transformation du boulanger ? Qu'évoque le titre "ceci n'est pas une pipe" ? Ces questions — ramassis hétéroclite de pédanteries — en elles-mêmes aucun intérêt, et, bien entendu, l'homme de "véritable culture" refusera de se soumettre à un questionnaire. L'homme de véritable culture — cela va de soi — possède la culture elle-même pour interiorité, c'est cela qui rend à ses yeux le questionnement absurde, puisqu'il suppose l'extériorisation. Il est bien entendu que les questions n'ont de sens que pour la platitude des jeux télévisés ou pour ces concours dégénérés dans lesquels des Questionnaires à Choix Multiple viennent suppléer la lassitude des examinateurs. Si notre analyse est juste, le rapport d'interiorité à sa culture de l'homme de véritable culture 'est pourtant qu'un leurre, une hypocrisie, ou du moins qu'une façon très partielle d'envisager le sujet. La culture – au sens le plus vulgaire où nous l'entendons ici – ne joue pleinement son rôle social que dans son étalement. Etre cultivé, c'est manifester – allusivemet le plus souvent : c'est à la fois plus élégant et plus commode – la capacité de faire savoir que l'on possède la capacité qui suffirait à fournir les réponses à certaines questions. Il est par conséquent intéressant de questionner les questions de la façon suivante : puisque toute réponse suppose une certaine capacité, à quelle sorte de question correspond la capacité que l'on reconnaît comme définissant l'homme cultivé ?
+
+p. 9
