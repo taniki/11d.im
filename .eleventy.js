@@ -21,12 +21,14 @@ module.exports = function(eleventyConfig) {
         "woff"
     ])
 
+    eleventyConfig.addPassthroughCopy("css")
     eleventyConfig.addPassthroughCopy("assets")
     eleventyConfig.addPassthroughCopy("images")
 
     // filters
-    global.filters = eleventyConfig.javascriptFunctions;
+    eleventyConfig.addFilter('md', (content)=> md.renderInline(content))
 
+    global.filters = eleventyConfig.javascriptFunctions;
     eleventyConfig.setPugOptions({ // and here
         globals: ['filters']
     });
@@ -49,24 +51,29 @@ module.exports = function(eleventyConfig) {
 
     eleventyConfig.addCollection("notices",
         collection => collection
-        .getFilteredByGlob("notices/*.md")
+        .getFilteredByGlob("./content/notices/*.md")
         .sort((a,b) => {
             let x = ((a.data.short) ? a.data.short: a.data.title).toLowerCase()
             let y = ((b.data.short) ? b.data.short: b.data.title).toLowerCase()
 
-            return x.localeCompare(y)
+    return x.localeCompare(y)
         })
     )
 
     eleventyConfig.addCollection("journal",
         collection => collection
-        .getFilteredByGlob(['./journal/*.md', './yo/*.md'])
+        .getFilteredByGlob([
+	    './content/journal/*.md',
+            './content/yo/*.md',
+	    './content/write.apreslanu.it/tk/*md',
+            './content/write.apreslanu.it/offload/*.md'
+	])
         .filter(x => !x.data.hidden)
     )
 
     eleventyConfig.addCollection("highlights",
         collection => collection
-        .getFilteredByGlob("highlights/*.md")
+        .getFilteredByGlob("./content/highlights/*.md")
         .sort((a,b)=> {
             if (a.data.author.last > b.data.author.last) return 1;
             else if (a.data.author.last < b.data.author.last) return -1;
@@ -76,6 +83,29 @@ module.exports = function(eleventyConfig) {
 
     eleventyConfig.addCollection("semaines",
         collection => collection
-        .getFilteredByGlob(['./semaines/*.md'])
+        .getFilteredByGlob([
+	    './content/semaines/*.md',
+	    './content/write.apreslanu.it/weeknotes/*.md'
+	])
     )
+    
+    eleventyConfig.addCollection("liens",
+        collection => collection
+        .getFilteredByGlob(['./content/liens/*.md'])
+    )
+
+    eleventyConfig
+        .addCollection("posts",
+            collection => collection
+                .getFilteredByGlob('./content/**/*.md')
+                .filter(x => x.inputPath != './README.md')
+        )
+        
+    return {
+    	dir: {
+    	    input: 'content',
+    	    includes: '../includes',
+    	    data: '../data'
+    	}
+    }
 }

@@ -1,0 +1,161 @@
+---
+layout: layouts/base
+title: 11d.im
+eleventyExcludeFromCollections: true
+---
+-
+  let currentYear = 2024
+
+  let formatDate = (text) => {
+    let d = new Date(text)
+
+    let day = (d.getDate()).toString().padStart(2, '0')
+    let month = (d.getMonth()+1).toString().padStart(2, '0')
+    let year = d.getFullYear()
+
+    let formated = `${day}.${month}`
+
+    return formated
+  }
+
+  let notices = collections
+    .notices
+    .filter(n => n.data.status != "draft")
+    .reduce((acc, n)=>{
+      let title = (n.data.short) ? n.data.short : n.data.title
+      let letter = title.charAt(0).toLowerCase()
+      if (!(letter in acc)) acc[letter] = []
+      acc[letter].push(n)
+      return acc
+  }, {})
+  
+  let journal_byyear = collections
+    .journal
+    .reduce((acc, entry)=>{
+      const year = (new Date(entry.date)).getFullYear()
+      
+      if (!(year in acc)) acc[year] = []
+      
+      acc[year].push(entry)
+      
+      return acc
+    }, {})
+    
+  let years = [
+    ... new Set(
+      collections
+        .journal
+        .map(e => (new Date(e.date)).getFullYear())
+    )
+  ]
+
+h1 11d.im
+
+div.epigraph
+  blockquote
+    p
+      | 👋 Salut, je suis 
+      a(href="/notices/tk") tam kien duong
+      | , bienvenue dans 
+      a(href="/notices/11d") cet espace temporaire de travail
+      | !
+
+h2 journal
+
+each year in years.filter(y => y == currentYear).reverse()
+  h3= year
+  
+  - entries = journal_byyear[year].reverse()
+  
+  p
+    each entry, index in entries
+      span
+        a(href=entry.url) !{ filters.md(entry.data.title) }
+        span(style="color: #aaa;") &nbsp;!{ formatDate(entry.date) }
+        unless index == entries.length-1
+          span(style="color: #aaa;")  • 
+
+p
+  a(href="/journal/") 🗄️ les archives
+
+p 
+  a(href="/journal.xml") 📮 fil rss
+
+
+h2 tempus fugit
+
+p
+    each entry, index in collections.semaines.reverse()
+        span
+            a(href=entry.url) !{ filters.md(entry.data.title) }
+        unless index == collections.semaines.length-1
+          span(style="color: #aaa;")  • 
+p
+    a(href="/semaines/") 🗄️ les archives
+p
+    a(href="/tempusfugit.xml") 📮 fil rss
+
+
+h2 fragments de web
+
+p
+  each lien, index in collections.liens.slice(0, 10)
+    - site = lien.data.url.split("/")[2].replace("www.", "")
+    span
+      a(href=lien.url) !{ lien.data.title }
+      span  (!{site})
+      unless index == 9
+        span(style="color: #aaa;")  • 
+
+p
+  a(href="/liens/") 🗄️ les archives
+p
+  a(href="/liens.xml") 📮 fil rss
+
+
+h2 passages
+
+p Des citations glanées de façon irrégulière au fil des années et des lectures.
+
+- 
+  let highlights = collections
+    .highlights
+    .reduce((acc, n)=>{
+      
+      const name = [
+        n.data.author.first,
+        n.data.author.middle,
+        n.data.author.last
+      ]
+      .filter(d => d != undefined)
+      .join(' ')
+      
+      if (!(name in acc)) acc[name] = []
+      
+      acc[name].push(n)
+      
+      return acc
+    }, {})
+
+
+p
+  each author, author_index in Object.entries(highlights)
+    b !{ author[0] }&nbsp;:&nbsp;
+    each book, book_index in author[1]
+      span
+        a(href=book.url) !{ book.data.title }
+
+        unless author_index == Object.entries(highlights).length - 1 && book_index == author[1].length - 1
+          span(style="color: #aaa;")  • 
+
+
+h2 notices
+
+p
+  each n, i1 in Object.entries(notices)
+    b !{ n[0] }&nbsp;:&nbsp;
+    each note, i2 in n[1]
+      span
+        a(href=note.url) !{ (note.data.short) ? note.data.short : note.data.title }
+        unless i1 == Object.entries(notices).length - 1 && i2 == n[1].length - 1
+          span(style="color: #aaa;")  • 

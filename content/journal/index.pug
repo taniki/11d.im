@@ -1,0 +1,54 @@
+---
+layout: layouts/base
+title: ~/journal
+eleventyExcludeFromCollections: true
+---
+-
+  let formatDate = (text) => {
+    let d = new Date(text)
+
+    let day = (d.getDate()).toString().padStart(2, '0')
+    let month = (d.getMonth()+1).toString().padStart(2, '0')
+    let year = d.getFullYear()
+
+    let formated = `${day}.${month}`
+
+    return formated
+  }
+
+  let journal_byyear = collections
+    .journal
+    .reduce((acc, entry)=>{
+      const year = (new Date(entry.date)).getFullYear()
+      
+      if (!(year in acc)) acc[year] = []
+      
+      acc[year].push(entry)
+      
+      return acc
+    }, {})
+    
+  let years = [
+    ... new Set(
+      collections
+        .journal
+        .map(e => (new Date(e.date)).getFullYear())
+    )
+  ]
+
+h1 journal
+
+p
+  a(href="/journal.xml") 📮 fil rss
+
+each year in years.reverse()
+  h3= year
+  
+  - entries = journal_byyear[year]
+
+    ul
+        each entry, index in entries
+            li
+                span(style="color: #aaa;") &nbsp;!{ formatDate(entry.date) }&nbsp;
+                a(href=entry.url) !{ filters.md(entry.data.title) }
+

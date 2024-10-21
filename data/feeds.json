@@ -1,0 +1,650 @@
+[
+  {
+    "type": "rss",
+    "xmlUrl": "https://teamopendata.org/posts.rss",
+    "htmlUrl": "https://teamopendata.org/",
+    "title": "#TeamOpenData - Messages r\u00e9cents"
+  },
+  {
+    "type": "rss",
+    "xmlUrl": "https://teamopendata.org/latest.rss",
+    "htmlUrl": "https://teamopendata.org/latest",
+    "title": "#TeamOpenData - Sujets r\u00e9cents"
+  },
+  {
+    "type": "rss",
+    "xmlUrl": "https://olivier.thereaux.net/atom.xml",
+    "htmlUrl": "https://olivier.thereaux.net/",
+    "title": "2 Neurones and 1 Camera"
+  },
+  {
+    "type": "rss",
+    "xmlUrl": "https://arnoldplaton.wordpress.com/feed/",
+    "htmlUrl": "https://arnoldplaton.wordpress.com/",
+    "title": "A.P."
+  },
+  {
+    "type": "rss",
+    "xmlUrl": "https://adactio.com/rss/",
+    "htmlUrl": "https://adactio.com/",
+    "title": "Adactio"
+  },
+  {
+    "type": "rss",
+    "xmlUrl": "https://adactio.com/links/rss",
+    "htmlUrl": "https://adactio.com/links/",
+    "title": "Adactio: Links"
+  },
+  {
+    "type": "rss",
+    "xmlUrl": "https://www.al3x.net/blog/rss/",
+    "htmlUrl": "https://www.al3x.net/",
+    "title": "Alex Payne"
+  },
+  {
+    "type": "rss",
+    "xmlUrl": "https://blog.alistairuff.com/feed",
+    "htmlUrl": "https://blog.alistairuff.com/",
+    "title": "alistairuff"
+  },
+  {
+    "type": "rss",
+    "xmlUrl": "https://anniceris.blogspot.com/feeds/posts/default",
+    "htmlUrl": "https://anniceris.blogspot.com/",
+    "title": "Anniceris"
+  },
+  {
+    "type": "rss",
+    "xmlUrl": "https://api.arretsurimages.net/api/public/rss/all-content",
+    "htmlUrl": "https://www.arretsurimages.net/",
+    "title": "Arr\u00eat sur Images - Le flux RSS"
+  },
+  {
+    "type": "rss",
+    "xmlUrl": "http://feeds.arstechnica.com/arstechnica/index/",
+    "htmlUrl": "https://arstechnica.com/",
+    "title": "Ars Technica - All content"
+  },
+  {
+    "type": "rss",
+    "xmlUrl": "https://www.arthurperret.fr/feed.xml",
+    "htmlUrl": "https://www.arthurperret.fr/",
+    "title": "Arthur Perret"
+  },
+  {
+    "type": "rss",
+    "xmlUrl": "https://axle.design/feed.rss",
+    "htmlUrl": "https://axle.design/",
+    "title": "Axle"
+  },
+  {
+    "type": "rss",
+    "xmlUrl": "https://www.baldurbjarnason.com/feed.xml",
+    "htmlUrl": "https://www.baldurbjarnason.com/",
+    "title": "Baldur Bjarnason's Notes on the Web"
+  },
+  {
+    "type": "rss",
+    "xmlUrl": "https://www.bakadesuyo.com/feed/",
+    "htmlUrl": "https://bakadesuyo.com/",
+    "title": "Barking Up The Wrong Tree"
+  },
+  {
+    "type": "rss",
+    "xmlUrl": "https://bzg.fr/index.xml",
+    "htmlUrl": "https://bzg.fr/",
+    "title": "Bastien Guerry"
+  },
+  {
+    "type": "rss",
+    "xmlUrl": "https://big.paris/feed/",
+    "htmlUrl": "https://big.paris/",
+    "title": "Big.Paris"
+  },
+  {
+    "type": "rss",
+    "xmlUrl": "https://blog.gardeviance.org/feeds/posts/default",
+    "htmlUrl": "https://blog.gardeviance.org/",
+    "title": "Bits or pieces?"
+  },
+  {
+    "type": "rss",
+    "xmlUrl": "https://www.arkadymartine.net/blog?format=rss",
+    "htmlUrl": "https://www.arkadymartine.net/blog/",
+    "title": "BLOG - Arkady Martine"
+  },
+  {
+    "type": "rss",
+    "xmlUrl": "https://www.reforge.com/blog?format=rss",
+    "htmlUrl": "https://www.reforge.com/blog/",
+    "title": "Blog - Reforge"
+  },
+  {
+    "type": "rss",
+    "xmlUrl": "https://igor.milhit.ch/blog/index.xml",
+    "htmlUrl": "https://igor.milhit.ch/blog/",
+    "title": "Blog on iGor milhit"
+  },
+  {
+    "type": "rss",
+    "xmlUrl": "http://www.blog.kamisphere.fr/feed/",
+    "htmlUrl": "http://www.blog.kamisphere.fr/",
+    "title": "Blog | Kamisph\u00e8re"
+  },
+  {
+    "type": "rss",
+    "xmlUrl": "http://feeds.feedburner.com/brad-frosts-blog",
+    "htmlUrl": "https://bradfrost.com/",
+    "title": "Brad Frost"
+  },
+  {
+    "type": "rss",
+    "xmlUrl": "https://cassie.codes/feed.xml",
+    "htmlUrl": "https://cassie.codes/feed.xml",
+    "title": "cassie.codes"
+  },
+  {
+    "type": "rss",
+    "xmlUrl": "https://boffosocko.com/feed/",
+    "htmlUrl": "https://boffosocko.com/",
+    "title": "Chris Aldrich"
+  },
+  {
+    "type": "rss",
+    "xmlUrl": "https://www.christian-faure.net/feed/",
+    "htmlUrl": "https://www.christian-faure.net/",
+    "title": "Christian Faur\u00e9"
+  },
+  {
+    "type": "rss",
+    "xmlUrl": "https://code.larlet.fr/feed_rss_created.xml",
+    "htmlUrl": "https://code.larlet.fr/",
+    "title": "Code.larlet.fr"
+  },
+  {
+    "type": "rss",
+    "xmlUrl": "https://www.contretemps.eu/feed/",
+    "htmlUrl": "https://www.contretemps.eu/",
+    "title": "CONTRETEMPS"
+  },
+  {
+    "type": "rss",
+    "xmlUrl": "https://larlet.fr/david/log/",
+    "htmlUrl": "https://larlet.fr/david/",
+    "title": "David Larlet"
+  },
+  {
+    "type": "rss",
+    "xmlUrl": "https://joachimesque.com/blog.atom",
+    "htmlUrl": "https://blog.professeurjoachim.com/",
+    "title": "Derniers articles du blog de Joachim"
+  },
+  {
+    "type": "rss",
+    "xmlUrl": "https://www.farnamstreetblog.com/feed/",
+    "htmlUrl": "https://fs.blog/",
+    "title": "Farnam Street"
+  },
+  {
+    "type": "rss",
+    "xmlUrl": "https://fivethirtyeight.com/all/feed",
+    "htmlUrl": "https://fivethirtyeight.com/",
+    "title": "FiveThirtyEight"
+  },
+  {
+    "type": "rss",
+    "xmlUrl": "https://blog.flickr.net/feed",
+    "htmlUrl": "https://blog.flickr.net/",
+    "title": "Flickr Blog"
+  },
+  {
+    "type": "rss",
+    "xmlUrl": "https://flowingdata.com/feed",
+    "htmlUrl": "https://flowingdata.com/",
+    "title": "FlowingData"
+  },
+  {
+    "type": "rss",
+    "xmlUrl": "https://www.frustrationmagazine.fr/feed/",
+    "htmlUrl": "https://www.frustrationmagazine.fr/",
+    "title": "Frustration Magazine"
+  },
+  {
+    "type": "rss",
+    "xmlUrl": "https://f14e.fr/flux.xml",
+    "htmlUrl": "https://f14e.fr/flux.xml",
+    "title": "Fr\u00e9d\u00e9ric Bardolle"
+  },
+  {
+    "type": "rss",
+    "xmlUrl": "https://gilest.org/feed/index.xml",
+    "htmlUrl": "https://gilest.org/",
+    "title": "gilest.org"
+  },
+  {
+    "type": "rss",
+    "xmlUrl": "https://visitmy.website/feed.xml",
+    "htmlUrl": "https://visitmy.website/",
+    "title": "Harsh Browns"
+  },
+  {
+    "type": "rss",
+    "xmlUrl": "https://nicolas.perriault.net/feed.xml",
+    "htmlUrl": "https://nicolas.perriault.net/",
+    "title": "Hi, I\u2019m Nicolas"
+  },
+  {
+    "type": "rss",
+    "xmlUrl": "https://hypernews.co/rss/",
+    "htmlUrl": "https://hypernews.co/",
+    "title": "HyperNews"
+  },
+  {
+    "type": "rss",
+    "xmlUrl": "https://ilovetypography.com/feed",
+    "htmlUrl": "https://ilovetypography.com/",
+    "title": "I Love Typography"
+  },
+  {
+    "type": "rss",
+    "xmlUrl": "http://feeds.feedburner.com/InformationIsBeautiful",
+    "htmlUrl": "https://informationisbeautiful.net/",
+    "title": "Information is Beautiful"
+  },
+  {
+    "type": "rss",
+    "xmlUrl": "https://infrequently.org/feed/",
+    "htmlUrl": "https://infrequently.org/feed/",
+    "title": "Infrequently Noted"
+  },
+  {
+    "type": "rss",
+    "xmlUrl": "https://interconnected.org/home/feed",
+    "htmlUrl": "https://interconnected.org/home",
+    "title": "Interconnected"
+  },
+  {
+    "type": "rss",
+    "xmlUrl": "https://www.itchban.com/blog?format=rss",
+    "htmlUrl": "https://www.itchban.com/blog/",
+    "title": "ITCHBAN.com / Blog - itchban"
+  },
+  {
+    "type": "rss",
+    "xmlUrl": "https://www.lemonde.fr/jeux-video/rss_full.xml",
+    "htmlUrl": "https://www.lemonde.fr/jeux-video/rss_full.xml",
+    "title": "Jeux vid\u00e9o : Toute l\u2019actualit\u00e9 sur Le Monde.fr."
+  },
+  {
+    "type": "rss",
+    "xmlUrl": "https://blog.jim-nielsen.com/feed.xml",
+    "htmlUrl": "https://blog.jim-nielsen.com/",
+    "title": "Jim Nielsen\u2019s Blog"
+  },
+  {
+    "type": "rss",
+    "xmlUrl": "https://notes.jim-nielsen.com/feed.xml",
+    "htmlUrl": "https://notes.jim-nielsen.com/",
+    "title": "Jim Nielsen\u2019s Notes"
+  },
+  {
+    "type": "rss",
+    "xmlUrl": "https://jonathangray.org/feed.xml",
+    "htmlUrl": "https://jonathangray.org/",
+    "title": "jonathangray.org \u2013 jonathan w. y. gray"
+  },
+  {
+    "type": "rss",
+    "xmlUrl": "https://kfitz.info/feed.xml",
+    "htmlUrl": "https://kfitz.github.io/",
+    "title": "Kathleen Fitzpatrick"
+  },
+  {
+    "type": "rss",
+    "xmlUrl": "https://www.kickscondor.com/feed.xml",
+    "htmlUrl": "https://www.kickscondor.com/",
+    "title": "Kicks Condor"
+  },
+  {
+    "type": "rss",
+    "xmlUrl": "https://kemenaran.winosx.com/atom.xml",
+    "htmlUrl": "https://kemenaran.winosx.com/atom.xml",
+    "title": "Kzone"
+  },
+  {
+    "type": "rss",
+    "xmlUrl": "http://www.enroweb.com/blogsciences/index.php?feed/atom",
+    "htmlUrl": "http://www.enroweb.com/blogsciences/index.php?",
+    "title": "La science, la cit\u00e9"
+  },
+  {
+    "type": "rss",
+    "xmlUrl": "https://laviematerielle.substack.com/feed",
+    "htmlUrl": "https://laviematerielle.substack.com/",
+    "title": "La vie mat\u00e9rielle"
+  },
+  {
+    "type": "rss",
+    "xmlUrl": "https://5ika.ch/posts/rss.xml",
+    "htmlUrl": "https://5ika.ch/posts",
+    "title": "Le blog de 5ika"
+  },
+  {
+    "type": "rss",
+    "xmlUrl": "https://esjpro.substack.com/feed",
+    "htmlUrl": "https://esjpro.substack.com/",
+    "title": "Le d\u00e9brief' Media de l'ESJ PRO"
+  },
+  {
+    "type": "rss",
+    "xmlUrl": "https://blog.goe.land/index.xml",
+    "htmlUrl": "https://blog.goe.land/",
+    "title": "Le nid d'Eorn"
+  },
+  {
+    "type": "rss",
+    "xmlUrl": "https://lepasduchatnoir.com/feed/",
+    "htmlUrl": "https://lepasduchatnoir.com/",
+    "title": "le pas du chat noir \u2013 olivier laffargue"
+  },
+  {
+    "type": "rss",
+    "xmlUrl": "https://www.lemonde.fr/les-decodeurs/rss_full.xml",
+    "htmlUrl": "https://www.lemonde.fr/les-decodeurs/rss_full.xml",
+    "title": "Les D\u00e9codeurs : Toute l\u2019actualit\u00e9 sur Le Monde.fr."
+  },
+  {
+    "type": "rss",
+    "xmlUrl": "https://lesjours.fr/rss.xml",
+    "htmlUrl": "https://lesjours.fr/",
+    "title": "Les Jours"
+  },
+  {
+    "type": "rss",
+    "xmlUrl": "https://buttondown.email/lilili/rss",
+    "htmlUrl": "https://buttondown.email/lilili",
+    "title": "LiLiLi"
+  },
+  {
+    "type": "rss",
+    "xmlUrl": "https://maggieappleton.com/rss.xml",
+    "htmlUrl": "https://maggieappleton.com/",
+    "title": "Maggie Appleton"
+  },
+  {
+    "type": "rss",
+    "xmlUrl": "https://marketspowerandculture.wordpress.com/feed/",
+    "htmlUrl": "https://marketspowerandculture.wordpress.com/",
+    "title": "Markets, Power, and Culture"
+  },
+  {
+    "type": "rss",
+    "xmlUrl": "https://minimaxir.com/post/index.xml",
+    "htmlUrl": "https://minimaxir.com/post/",
+    "title": "Max Woolf's Blog"
+  },
+  {
+    "type": "rss",
+    "xmlUrl": "https://critter.blog/feed/",
+    "htmlUrl": "https://critter.blog/",
+    "title": "Mike Crittenden"
+  },
+  {
+    "type": "rss",
+    "xmlUrl": "https://www.mindmedia.fr/feed/",
+    "htmlUrl": "https://www.mindmedia.fr/",
+    "title": "mind Media"
+  },
+  {
+    "type": "rss",
+    "xmlUrl": "http://blog.alphoenix.net/feed/",
+    "htmlUrl": "http://blog.alphoenix.net/",
+    "title": "misc.alphoenix.net"
+  },
+  {
+    "type": "rss",
+    "xmlUrl": "https://pmorinerie.net/rss/shared.php",
+    "htmlUrl": "http://readitlaterlist.com/users/kemenaran/feed/all",
+    "title": "My Reading List: Read and Unread"
+  },
+  {
+    "type": "rss",
+    "xmlUrl": "http://getpocket.com/users/tkduong/feed/all",
+    "htmlUrl": "http://readitlaterlist.com/users/tkduong/feed/all",
+    "title": "My Reading List: Read and Unread"
+  },
+  {
+    "type": "rss",
+    "xmlUrl": "http://n-gate.com/index.atom",
+    "htmlUrl": "http://n-gate.com/index.atom",
+    "title": "n-gate.com."
+  },
+  {
+    "type": "rss",
+    "xmlUrl": "https://medium.com/feed/news-catalyst",
+    "htmlUrl": "https://medium.com/news-catalyst?source=rss----eebd193fd505---4",
+    "title": "News Catalyst - Medium"
+  },
+  {
+    "type": "rss",
+    "xmlUrl": "https://nicolas.loeuillet.org/feeds/all.atom.xml",
+    "htmlUrl": "https://nicolas.loeuillet.org/",
+    "title": "Nicolas L\u0153uillet"
+  },
+  {
+    "type": "rss",
+    "xmlUrl": "https://feeds.feedburner.com/NiemanJournalismLab",
+    "htmlUrl": "https://www.niemanlab.org/",
+    "title": "Nieman Lab"
+  },
+  {
+    "type": "rss",
+    "xmlUrl": "https://www.profgalloway.com/feed/",
+    "htmlUrl": "https://www.profgalloway.com/",
+    "title": "No Mercy / No Malice"
+  },
+  {
+    "type": "rss",
+    "xmlUrl": "https://blog.hello-bokeh.fr/feed/",
+    "htmlUrl": "https://blog.hello-bokeh.fr/",
+    "title": "Notes"
+  },
+  {
+    "type": "rss",
+    "xmlUrl": "https://www.juliebrillet.fr/notes/index.xml",
+    "htmlUrl": "https://juliebrillet.fr/notes/",
+    "title": "Notes on Julie Brillet - m\u00e9diatrice num\u00e9rique et formatrice"
+  },
+  {
+    "type": "rss",
+    "xmlUrl": "https://www.obsidianroundup.org/blog/rss/",
+    "htmlUrl": "https://www.eleanorkonik.com/",
+    "title": "Obsidian Iceberg"
+  },
+  {
+    "type": "rss",
+    "xmlUrl": "https://softwarecrisis.dev/feed.xml",
+    "htmlUrl": "https://softwarecrisis.dev/feed.xml",
+    "title": "Out of the Software Crisis (Newsletter)"
+  },
+  {
+    "type": "rss",
+    "xmlUrl": "https://penserclasser.fr/feed/",
+    "htmlUrl": "https://penserclasser.fr/",
+    "title": "Penser/Classer"
+  },
+  {
+    "type": "rss",
+    "xmlUrl": "https://www.platformer.news/feed",
+    "htmlUrl": "https://www.platformer.news/",
+    "title": "Platformer"
+  },
+  {
+    "type": "rss",
+    "xmlUrl": "https://pluralistic.net/feed/",
+    "htmlUrl": "https://pluralistic.net/",
+    "title": "Pluralistic: Daily links from Cory Doctorow"
+  },
+  {
+    "type": "rss",
+    "xmlUrl": "https://www.quaternum.net/atom.xml",
+    "htmlUrl": "https://www.quaternum.net/atom.xml",
+    "title": "quaternum.net \u2014 carnet d'Antoine"
+  },
+  {
+    "type": "rss",
+    "xmlUrl": "https://news.raphaelbastide.com/rss",
+    "htmlUrl": "https://news.raphaelbastide.com/",
+    "title": "Rapha\u00ebl Bastide News"
+  },
+  {
+    "type": "rss",
+    "xmlUrl": "https://robinrendle.com/feed.xml",
+    "htmlUrl": "https://robinrendle.com/feed.xml",
+    "title": "Robin Rendle"
+  },
+  {
+    "type": "rss",
+    "xmlUrl": "https://www.roughtype.com/?feed=rss2",
+    "htmlUrl": "https://www.roughtype.com/",
+    "title": "ROUGH TYPE"
+  },
+  {
+    "type": "rss",
+    "xmlUrl": "https://causalinf.substack.com/feed",
+    "htmlUrl": "https://causalinf.substack.com/",
+    "title": "Scott's Substack"
+  },
+  {
+    "type": "rss",
+    "xmlUrl": "https://www.shutupandsitdown.com/feed/",
+    "htmlUrl": "https://www.shutupandsitdown.com/",
+    "title": "Shut Up & Sit Down"
+  },
+  {
+    "type": "rss",
+    "xmlUrl": "https://simonwillison.net/atom/everything/",
+    "htmlUrl": "http://simonwillison.net/",
+    "title": "Simon Willison's Weblog"
+  },
+  {
+    "type": "rss",
+    "xmlUrl": "https://andymatuschak.org/feed/",
+    "htmlUrl": "https://blog.andymatuschak.org/",
+    "title": "Square Signals"
+  },
+  {
+    "type": "rss",
+    "xmlUrl": "https://stackoverflow.blog/feed/",
+    "htmlUrl": "https://stackoverflow.blog/",
+    "title": "Stack Overflow Blog"
+  },
+  {
+    "type": "rss",
+    "xmlUrl": "https://medium.com/feed/@paulfrazee",
+    "htmlUrl": "https://medium.com/@paulfrazee?source=rss-7c71dd08801------2",
+    "title": "Stories by Paul Frazee on Medium"
+  },
+  {
+    "type": "rss",
+    "xmlUrl": "https://www.streethunters.net/feed/",
+    "htmlUrl": "https://www.streethunters.net/",
+    "title": "Street Hunters"
+  },
+  {
+    "type": "rss",
+    "xmlUrl": "https://themarkup.org/feeds/rss.xml",
+    "htmlUrl": "https://themarkup.org/",
+    "title": "The Markup - All Stories"
+  },
+  {
+    "type": "rss",
+    "xmlUrl": "https://thesephist.com/index.xml",
+    "htmlUrl": "https://thesephist.com/",
+    "title": "thesephist"
+  },
+  {
+    "type": "rss",
+    "xmlUrl": "https://oncletom.io/feed/",
+    "htmlUrl": "https://oncletom.io/feed/",
+    "title": "Thomas Parisot"
+  },
+  {
+    "type": "rss",
+    "xmlUrl": "https://toolkits.com/feed/",
+    "htmlUrl": "https://toolkits.com/",
+    "title": "Toolkits"
+  },
+  {
+    "type": "rss",
+    "xmlUrl": "https://toutcequibouge.net/rss",
+    "htmlUrl": "https://toutcequibouge.net/rss",
+    "title": "Tout ce qui bouge"
+  },
+  {
+    "type": "rss",
+    "xmlUrl": "https://tripleampersand.org/feed/",
+    "htmlUrl": "https://tripleampersand.org/",
+    "title": "TripleAmpersand Journal (&&&)"
+  },
+  {
+    "type": "rss",
+    "xmlUrl": "https://uneroo.fr/feed/",
+    "htmlUrl": "https://uneroo.fr/",
+    "title": "UneRoo, Onewheel sessions"
+  },
+  {
+    "type": "rss",
+    "xmlUrl": "https://visionscarto.net/feed",
+    "htmlUrl": "https://visionscarto.net/",
+    "title": "Visionscarto"
+  },
+  {
+    "type": "rss",
+    "xmlUrl": "https://web3isgoinggreat.com/feed.xml",
+    "htmlUrl": "https://web3isgoinggreat.com/",
+    "title": "Web3 is Going Just Great"
+  },
+  {
+    "type": "rss",
+    "xmlUrl": "https://xn--dtour-bsa.studio/weeknotes/index.xml",
+    "htmlUrl": "https://xn--dtour-bsa.studio/",
+    "title": "Weeknotes \u2022 d\u00e9tour.studio"
+  },
+  {
+    "type": "rss",
+    "xmlUrl": "https://fraidyc.at/blog/feed.xml",
+    "htmlUrl": "https://fraidyc.at/blog/",
+    "title": "What's Up, Fraidycat?"
+  },
+  {
+    "type": "rss",
+    "xmlUrl": "https://forum.zettelkasten.de/discussions/feed.rss",
+    "htmlUrl": "https://forum.zettelkasten.de/",
+    "title": "Zettelkasten Forum"
+  },
+  {
+    "type": "rss",
+    "xmlUrl": "https://zettelkasten.de/feed.atom",
+    "htmlUrl": "https://zettelkasten.de/",
+    "title": "Zettelkasten.de"
+  },
+  {
+    "type": "rss",
+    "xmlUrl": "https://zigmoon.com/feed/",
+    "htmlUrl": "https://zigmoon.com/",
+    "title": "zigmoon design"
+  },
+  {
+    "type": "rss",
+    "xmlUrl": "http://www.scriptopolis.fr/feed/",
+    "htmlUrl": "http://www.scriptopolis.fr/",
+    "title": "\u2014 scriptopolis \u2014"
+  },
+  {
+    "type": "rss",
+    "xmlUrl": "https://xn--gckvb8fzb.com/index.xml",
+    "htmlUrl": "https://xn--gckvb8fzb.com/",
+    "title": "\u30de\u30ea\u30a6\u30b9"
+  }
+]

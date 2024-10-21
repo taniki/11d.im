@@ -1,4 +1,4 @@
-extends ./base.pug
+extends base.pug
 
 block content
   -
@@ -6,13 +6,14 @@ block content
     const month = (page.date.getMonth()+1).toString().padStart(2, '0')
     const year = page.date.getFullYear()
     var prettyDate = `${day}.${month}.${year}`
+  - let site = url.split('/')[2].replace("www.", "")
 
   article
     block article
-      h1 !{ filters.md(title) }
+      h1
+        a(href=url) !{ title }
+      p.subtitle #{ site }
       p.subtitle #{ prettyDate }
-      if source
-        p
      
       section !{ filters.toc(content) }
      
