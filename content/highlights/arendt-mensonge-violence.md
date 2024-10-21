@@ -1,9 +1,9 @@
+---
 title: Du mensonge à la violence
 author:
-    - first: Hannah
-      last: Arendt
+  first: Hannah
+  last: Arendt
 ---
-page: 143--146
 
 Il me paraît assez triste de constater qu'à son stade actuel de la terminologie de notre science politique est incapable de faire nettement la distinction entre divers mots clefs, tels que "pouvoir", "puissance", "force", "autorité", et finalement "violence", dont chacun se réfère à des phénomènes distincts et différents. « "Puissance", "pouvoir", "autorité", nous dis Passerin d'Entrèves, ce sont là des mots auxquels un sens exact n'est pas attribué dans le langage courant ; les plus grands penseurs eux-mêmes les utilisent parfois au hasard. Il est cependant plausible de présumer que ces mots se réfèrent à des qualités différentes, et leur sens devrait donc être soigneusement examiné et déterminé ... L'usage correct de ces mots n'est pas seulement une question de grammaire, mais aussi de perspective historique. » Les utiliser comme s'il s'agissait simplement de synonymes, non seulement dénote une certaine insensibilité à leur signification linguistique, ce qui paraît assez grave, mais témoigne en outre d'une ignorance regrettable des réalités auxquelles ce langage se réfère. Il est toujours assez tentant, en ce cas, de proposer des définitions nouvelles ; mais même s'il m'arrive de céder quelque peu à cette tentation, il me semble qu'ici il ne s'agit pas simplement d'une inattention du langage. Au-delà d'une confusion apparente demeure la ferme conviction que des distinctions terminologiques plus précises seraient, au mieux, d'une importance mineure : la conviction que le problème politique essentiel est et a toujours été de savoir qui domine et qui est dominé. Pouvoir, puissance, force, autorité et violence : ce ne sont là que des mots indicateurs des moyens que l'homme utilise afin de dominer l'homme ; on les tient pour synonymes du fait qu'ils ont la même fonction. Ce n'est que lorsqu'on aura cessé de ramener la conduite des affaires à une simple question de domination que les caractères originaux des problèmes de l'homme pourront apparaiître, ou plutôt réapparaître, dans toute leur authentique diversité.
 
@@ -18,3 +18,5 @@ La *force*, terme que le langage courant utilise souvent comme synonyme de la vi
 L'*autorité*, qui désigne le plus impalpable de ces phénomènes, et qui de ce fait est fréquemment l'occasion d'abus de langage, peut s'appliquer à la personne -- on peut parler d'autorité personnelle, par exemple dans les rapports entre parents et enfants, entre professeurs et élèves -- ou encore elle peut constituer un attribut des institutions, comme, par exemple, dans le cas du Sénat romain (auctoritas in senatu) ou de la hierarchie de l'Eglise (un prêtre en état d'ivresse peu valablement donner l'absolution). Sa caractéristique essentielle est que ceux dont l'obéissance est requise la reconnaissent inconditionnellement ; il n'est en ce cas nul besoin de contrainte ou de persuasion. (Un père peut perdre son autorité, soit en battant son fils, soit en acceptant de discuter avec lui, c'est-à-dire soit en conduisant comme un tyran, soit en le traitant en égal.) L'autorité ne peut se maintenir qu'autant que l'institution ou la personne dont elle émane sont respectées. Le mépris est ainsi le plus grand ennemi de l'autorité, et le rire est pour elle la menace la plus redoutable.
 
 La *violence*, finallement, se distingue, comme nous l'avons vu, par son caractère instrumental. Sous son aspect phénoménologique, elle s'apparente à la puissance, car ses instruments, comme tous les autres outils, sont conçus et utilisés en vue de multiplier la puissance naturelle, jusqu'à ce qu'au dernier stade de leur développement ils soient à même de la remplacer.
+
+p. 143-146
