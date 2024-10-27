@@ -7,6 +7,10 @@ body > footer ul {
   line-height: 1.2em;
 }
 
+body > footer .modified {
+  text-align: right;
+}
+
 blockquote + blockquote::before {
     display: block;
     width: 55%;
@@ -14,3 +18,4 @@ blockquote + blockquote::before {
     text-align: center;
     color: #aaa;
 }
+

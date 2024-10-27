@@ -9,3 +9,8 @@ block content
       each tag in tags
         span #!{ tag } 
     section !{ content }
+
+block footer_extra
+  section
+    hr
+    p.modified dernière modification : #{ page.date.toLocaleString('fr-Fr', { 'timeZone': 'Europe/Paris' }) }
