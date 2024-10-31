@@ -1,7 +1,7 @@
 ---
 title: projets et travaux
-layout: layouts/base
 permalink: /projets.html
+status: seed
 ---
 
 # projets et travaux
@@ -16,12 +16,13 @@ permalink: /projets.html
 
 - `2020-     ` [mechs&keebs](https://www.instagram.com/tkmechs/)
 
---- 
+---
 
 - `2024     ` [médailles et PIB](https://observablehq.com/@taniki/paris2024-medailles-pib)
 - `2024     ` [scraping des résultats des JO 2024](https://github.com/taniki/paris2024-data)
 - `2024     ` [données des élections législatives 2024](https://github.com/taniki/legislatives-2024)
 - `2023-2024` [paris2024.lol](https://paris2024.lol/)
+- `2022     ` [public data jobboard](https://data-jobboard.netlify.app/)
 - `2022     ` [sondages autour de l'élection présidentielle de 2022](https://observablehq.com/collection/@taniki/election-presidentielle-france-2022)
 - `2021-2022` [tutotal](https://observablehq.com/@taniki/tutotal-2022)
 - `2021     ` [sondages autour des élections régionales de 2021](https://observablehq.com/collection/@taniki/elections-regionales-france-2021)
