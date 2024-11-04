@@ -1,0 +1,45 @@
+---
+name: "[writefreely] retrieve notes"
+
+on:
+  workflow_dispatch:
+  repository_dispatch:
+    types:
+      - new_note
+
+jobs:
+  retrieve_notes:
+
+    runs-on: "ubuntu-latest"
+
+    permissions:
+      contents: write
+
+    strategy:
+      max-parallel: 1
+      matrix:
+        collections:
+          - tk
+          - offload
+          - weeknotes
+
+    steps:
+      - uses: "actions/checkout@v4"
+        with:
+          ref: ${{ github.head_ref }}
+      - uses: "actions/setup-python@v2"
+        with:
+          python-version: "3.9"
+      - name: "go to `./scripts`"
+        run: |
+          cd scripts
+      - name: "install dependencies"
+        run: |
+          pip install -r scripts/requirements.txt
+      - name: "retrieve from `write.apresalnu.it`"
+        run: |
+          cd scripts && python import_wf_${{ matrix.collections }}.py
+      - uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "🤖 ajoute les notes importées `write.apreslanu.it/${{ matrix.collections }}`"
+          file_pattern: "content/write.apreslanu.it/${{ matrix.collections }}/*.md"
