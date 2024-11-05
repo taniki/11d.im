@@ -1,24 +1,35 @@
 ---
 title: identités
 alias: '../verify'
+status: seed
 ---
 
 # identités
 
 - visualisation de données
-  - observablehq :
+  - observablehq : [taniki](https://observablehq.com/@taniki)
 - code
-  - github : https://github.com/taniki/
-  - gitlab : https://gitlab.com/taniki/
-  - codeberg : https://codeberg.org/taniki
+  - github : [taniki](https://github.com/taniki/)
+  - gitlab : [taniki](https://gitlab.com/taniki/)
+  - codeberg : [taniki](https://codeberg.org/taniki)
 - communautés et réseaux
-  - linkedin
-  - le club de mediapart
+  - mastodon : [@tk@social.apreslanu.it](https://social.apreslanu.it/@tk)
+  - linkedin : [tkduong](https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://fr.linkedin.com/in/tkduong&ved=2ahUKEwi6vLjNl8aJAxVKSaQEHXYLPcAQFnoECBkQAQ&usg=AOvVaw0lcaQwn-i7u6fZ19uL54hm)
+  - le club de Mediapart : [taniki](https://blogs.mediapart.fr/taniki)
+- lectures
+  - bookwyrm : [@tk@lire.boitam.eu](https://lire.boitam.eu/@tk)
+  - goodreads : [tam kien duong](https://www.goodreads.com/user/show/8344753-tam-kien-duong)
 - musique
-  - lastfm
-  - songkick
-  - bandcamp
+  - last.fm : [taniki](https://www.last.fm/user/taniki)
+  - bandcamp : [taniki](https://bandcamp.com/taniki)
+- photographie et images
+  - pixelfed : [@tk@pix.diaspodon.fr](https://pix.diaspodon.fr/tk)
+  - flickr : [biniki](https://flickr.com/biniki)
+  - instagram : [taniki](https://www.instagram.com/taniki/)
 - wikipedia
-  - global
-  - en
-  - fr
+  - global : 
+  - en : [Taniki](https://en.wikipedia.org/wiki/User:Taniki)
+  - fr : ~~Taniki~~
+  - wikidata : [Taniki](https://www.wikidata.org/wiki/User:Taniki)
+
+## GPG
