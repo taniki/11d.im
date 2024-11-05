@@ -11,7 +11,14 @@ alias: '../verify'
   - github : https://github.com/taniki/
   - gitlab : https://gitlab.com/taniki/
   - codeberg : https://codeberg.org/taniki
+- communautés et réseaux
+  - linkedin
+  - le club de mediapart
 - musique
   - lastfm
   - songkick
   - bandcamp
+- wikipedia
+  - global
+  - en
+  - fr
