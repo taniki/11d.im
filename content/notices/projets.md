@@ -26,6 +26,7 @@ status: seed
 - `2022     ` [sondages autour de l'élection présidentielle de 2022](https://observablehq.com/collection/@taniki/election-presidentielle-france-2022)
 - `2021-2022` [tutotal](https://observablehq.com/@taniki/tutotal-2022)
 - `2021     ` [sondages autour des élections régionales de 2021](https://observablehq.com/collection/@taniki/elections-regionales-france-2021)
+- `2018     ` [bot telegram yesnowtf](https://gitlab.com/taniki/yesnowtfbot)
 - `2018     ` [gallica.lol](https://github.com/taniki/gallicalol)
 - `2017-2020` [data.gouv.fr](https://www.data.gouv.fr/fr/)
 - `2016     ` [comp.soc-of-philosophy](https://github.com/taniki/comp.soc-of-philosophy)
