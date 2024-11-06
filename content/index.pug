@@ -58,22 +58,32 @@ div.epigraph
       a(href="/notices/tk") tam kien duong
       | , bienvenue dans 
       a(href="/notices/11d") cet espace temporaire de travail
-      | !
 
-h2 journal
+h2 !{ currentYear }
 
-each year in years.filter(y => y == currentYear).reverse()
-  h3= year
-  
-  - entries = journal_byyear[year].reverse()
-  
-  p
-    each entry, index in entries
-      span
-        a(href=entry.url) !{ filters.md(entry.data.title) }
-        span(style="color: #aaa;") &nbsp;!{ formatDate(entry.date) }
-        unless index == entries.length-1
-          span(style="color: #aaa;")  • 
+h3 textes
+
+- const longs = journal_byyear[currentYear].filter(d => ['/tk/', '/journal/'].some(c => d.url.includes(c))).reverse()
+
+ul
+  each entry, index in longs
+    li
+      span(style="color: #aaa;") !{ formatDate(entry.date) }&nbsp;
+      a(href=entry.url) !{ filters.md(entry.data.title) }
+
+
+h3 marmonnages
+
+- const shorts = journal_byyear[currentYear].filter(d => !['/tk/', '/journal/'].some(c => d.url.includes(c))).reverse()
+
+p
+  each entry, index in shorts
+    span
+      a(href=entry.url) !{ filters.md(entry.data.title) }
+      span(style="color: #aaa;") &nbsp;!{ formatDate(entry.date) }
+    unless index == shorts.length-1
+      span(style="color: #aaa;")  • 
+
 
 p
   a(href="/journal/") 🗄️ les archives
