@@ -66,7 +66,11 @@ def write_posts(posts):
         )
 
         print(filename)
-        print(p['created'])
+        print(p['created'][:19]+"Z")
+        print(datetime.datetime.fromisoformat(p['created'][:19]+"Z"))
+        print(datetime.datetime.fromisoformat(p['created'][:19]+"Z").strftime('%s'))
+        print(datetime.datetime.fromisoformat(p['created'][:19]+"Z").astimezone(tz))
+        print(datetime.datetime.fromisoformat(p['created'][:19]+"Z").astimezone(tz).strftime('%s'))
         print(post['title'])
         print(post['source'])
 
