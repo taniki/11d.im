@@ -29,5 +29,7 @@ status: seed
   - en : [Taniki](https://en.wikipedia.org/wiki/User:Taniki)
   - fr : ~~Taniki~~
   - wikidata : [Taniki](https://www.wikidata.org/wiki/User:Taniki)
+- fabrication
+  - thingiverse : [taniki](https://www.thingiverse.com/taniki/)
 
 ## GPG
