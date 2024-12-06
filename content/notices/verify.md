@@ -12,6 +12,7 @@ status: seed
   - codeberg : [taniki](https://codeberg.org/taniki)
 - communautés et réseaux
   - mastodon : [@tk@social.apreslanu.it](https://social.apreslanu.it/@tk)
+  - mastodon : [@tk@mediapart.social](https://mediapart.social/@tk)
   - linkedin : [tkduong](https://fr.linkedin.com/in/tkduong)
   - le club de Mediapart : [taniki](https://blogs.mediapart.fr/taniki)
 - lectures
