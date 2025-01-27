@@ -54,8 +54,9 @@ J'y retrouve des étudiant·es du médialab.
 
 ## lectures
 
-- [goodreads](https://www.goodreads.com/user_challenges/46907962)
 - [bookwyrm](https://lire.boitam.eu/)
+- [goodreads](https://www.goodreads.com/user_challenges/46907962)
+	- Je vais abandonner progressivement l'usage de ce site. Il a été racheté par Amazon, il y a un bail et il n'a cessé de se dégrader (RIP l'API). Les recommandations étaient souvent pertinents et j'y ai trouvé quelques pépites.
 
 ### chemins de lecture
 
