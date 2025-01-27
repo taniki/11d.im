@@ -28,14 +28,16 @@ J'écris par ici :
 
 - liste de tous les [projets et travaux](/projets/)
 
-### devenir journaliste avant 2027
+### intégrer une rédaction (indépendante) avant 2027
 
-J'ai candidaté à la bourse de l'ONG [algorithmwatch](https://algorithmwatch.org/en/) avec un sujet sur l'omniprésence de l'idéologie productiviste dans les outils de communication et plus spécifiquement les emails.
+Je travaille déjà pour un média indépendant mais côté entreprise. Il me semble vital de pouvoir contribuer à l'information à travers mes travaux sur les technologies, le numérique, les données et la visualisation d'information. C'est à la fois ma formation et mon expérience.
 
 ### coder pour raconter
 
-Je prépare mon cours de programmation dans le master "Management, Innovation Numérique" à l'Institut Mines-Télécom, le nouveau petit nom de Telecom Paris.
+Je donne un cours de programmation dans le master "Management, Innovation Numérique" à l'Institut Mines-Télécom, le nouveau petit nom de Telecom Paris.
 L'idée générale est d'apprendre à coder pour raconter à travers différents médias comme la visualisation de données, le journalisme de données ou bien le jeu vidéo.
+Le Master est une collaboration entre l'IMT et Sciences-Po.
+J'y retrouve des étudiant·es du médialab.
 
 ### homelab et autohébergement de services numériques
 
@@ -54,6 +56,12 @@ L'idée générale est d'apprendre à coder pour raconter à travers différents
 
 - [goodreads](https://www.goodreads.com/user_challenges/46907962)
 - [bookwyrm](https://lire.boitam.eu/)
+
+### chemins de lecture
+
+- Simone Weil
+- technologie, économie et travail
+- inférence causale
 
 ## clavier
 
