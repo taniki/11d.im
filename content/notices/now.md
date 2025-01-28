@@ -3,8 +3,6 @@ title: en ce moment
 permalink: /now.html
 ---
 
-# en ce moment
-
 Cette page est une [`/now` page](https://encemoment.site/).
 L'intention est de donner quelques nouvelles comme si on ne s'était pas vu depuis quelques mois.
 
@@ -30,7 +28,9 @@ J'écris par ici :
 
 ### intégrer une rédaction (indépendante) avant 2027
 
-Je travaille déjà pour un média indépendant mais côté entreprise. Il me semble vital de pouvoir contribuer à l'information à travers mes travaux sur les technologies, le numérique, les données et la visualisation d'information. C'est à la fois ma formation et mon expérience.
+Je travaille déjà pour un média indépendant mais côté entreprise.
+Il me semble vital de pouvoir contribuer à l'information à travers mes travaux sur les technologies, le numérique, les données et la visualisation d'information.
+C'est à la fois ma formation et mon expérience.
 
 ### coder pour raconter
 
@@ -38,6 +38,8 @@ Je donne un cours de programmation dans le master "Management, Innovation Numér
 L'idée générale est d'apprendre à coder pour raconter à travers différents médias comme la visualisation de données, le journalisme de données ou bien le jeu vidéo.
 Le Master est une collaboration entre l'IMT et Sciences-Po.
 J'y retrouve des étudiant·es du médialab.
+
+On y fait du tableur, du python (pandas et matplotlib), du javascript (observable hq/plot/framework) et du markwdown.
 
 ### homelab et autohébergement de services numériques
 
