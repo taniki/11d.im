@@ -1,5 +1,5 @@
 ---
-title: Notes sur la suppression générale des partis politique
+title: Notes sur la suppression générale des partis politiques
 year: 1943
 author:
   first: Simone
@@ -26,4 +26,4 @@ tags:
 > Le bien seul est une fin. Tout ce qui appartient au domaine des faits est de l'ordre des moyens. Mais la pensée collective est incapable de s'élever au-dessus du domaine des faits.  C'est une pensée animale. Elle n'a la notion du bien que juste assez pour commettre l'erreur de prendre tel ou tel moyen pour un bien absolu.
 >
 > Il en est ainsi des partis. Un parti est en principe un instrument pour servir une certaine conception du bien public.
-> <footer>Notes sur la suppression générale des partis politique, {{ author[0].first }} {{ author[0].last }} (1943)</fotter>
+> <footer>Notes sur la suppression générale des partis politiques, {{ author[0].first }} {{ author[0].last }} (1943)</fotter>
