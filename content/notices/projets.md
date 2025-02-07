@@ -4,8 +4,6 @@ permalink: /projets.html
 status: seed
 ---
 
-# projets et travaux
-
 - `2024-    ` [wokipydia](https://github.com/taniki/wokipydia)
 - `2023-    ` [write.apreslanu.it](https://write.apreslanu.it)
 - `2023-    ` [données de l'Assemblée Nationale](https://github.com/taniki/assemblee-nationale)
