@@ -60,6 +60,12 @@ On y fait du tableur, du python (pandas et matplotlib), du javascript (observabl
 - [goodreads](https://www.goodreads.com/user_challenges/46907962)
 	- Je vais abandonner progressivement l'usage de ce site. Il a été racheté par Amazon, il y a un bail et il n'a cessé de se dégrader (RIP l'API). Les recommandations étaient souvent pertinents et j'y ai trouvé quelques pépites.
 
+## jeux vidéos
+
+J'essaie de finir au moins un jeu par mois ou du moins de me forcer à moins butiner et donc de n'avoir qu'une seule partie en cours à la fois.
+
+- avril 2025 : [Mario and Luigi: Superstar Saga](https://en.wikipedia.org/wiki/Mario_%26_Luigi:_Superstar_Saga) (Gameboy Advance/RG 35XX H)
+
 ### chemins de lecture
 
 - Simone Weil
