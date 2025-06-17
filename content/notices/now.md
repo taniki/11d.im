@@ -9,8 +9,11 @@ L'intention est de donner quelques nouvelles comme si on ne s'était pas vu depu
 ## temps partiel
 
 J'en avais marre d'attendre l'adoption de la semaine de 4 jours dans les entreprises.
-J'ai alors profité du dispositif de [congé parental partiel] pour passer en 4/5 ème.
+J'ai alors profité du dispositif de [congé parental partiel] pour passer en 4/5ème.
 C'est une très bonne décision que j'aimerai raconter.
+
+J'hésitais à repasser à plein temps pour des raisons financières alors j'ai coupé la poire en deux.
+Je suis au 9/10ème depuis mai 2025.
 
 [congé parental partiel]: https://www.service-public.fr/particuliers/vosdroits/F2332
 
@@ -65,10 +68,13 @@ On y fait du tableur, du python (pandas et matplotlib), du javascript (observabl
 J'essaie de finir au moins un jeu par mois ou du moins de me forcer à moins butiner et donc de n'avoir qu'une seule partie en cours à la fois.
 
 - avril 2025 : [Mario and Luigi: Superstar Saga](https://en.wikipedia.org/wiki/Mario_%26_Luigi:_Superstar_Saga) (Gameboy Advance/RG 35XX H)
+	- Abandonné à mi-parcours. La mécanique de jeu repose sur le rythme et la coordination motrice qui sont deux de mes gros points faibles dans la vie.
+- mai 2025 : Cyberpunk 2077 (PC)
+	- Je fais surtout les missions annexes pour me ballader dans un Los Angeles dystopique à défaut de pouvoir rendre visite à ma famille qui y habite. Le propre de ce genre est de permettre une réfléxion sur le capitalisme et l'avenir.
 
 ### chemins de lecture
 
-- Simone Weil
+- ~~Simone Weil~~
 - technologie, économie et travail
 - inférence causale
 
