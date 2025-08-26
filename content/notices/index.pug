@@ -1,0 +1,25 @@
+---
+layout: layouts/base
+title: ~/journal
+eleventyExcludeFromCollections: true
+---
+
+-
+  let notices = collections
+    .notices
+    .reduce((acc, n)=>{
+      let title = (n.data.short) ? n.data.short : n.data.title
+      let letter = title.charAt(0).toLowerCase()
+      if (!(letter in acc)) acc[letter] = []
+      acc[letter].push(n)
+      return acc
+  }, {})
+
+h1 notices
+
+each n, i1 in Object.entries(notices)
+  h2 !{ n[0] }
+  ul
+    each note, i2 in n[1]
+      li
+        a(href=note.url) !{ (note.data.short) ? note.data.short : note.data.title }
