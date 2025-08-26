@@ -17,7 +17,8 @@
 import requests
 import frontmatter
 
-from dateutil import parser
+import datetime
+import pytz
 
 # %%
 source = 'https://write.apreslanu.it/api/collections/offload/posts'
@@ -51,9 +52,10 @@ posts[0]
 
 # %%
 def write_posts(posts):
+    tz = pytz.timezone('Europe/Paris')
 
     for p in posts:
-        filename = parser.parse(p['created']).strftime('%s')
+        filename = datetime.datetime.fromisoformat(p['created'][:19]+"Z").astimezone(tz).strftime('%s')
         url = source.replace('/api/collections', '').replace('posts', p['slug'])
         
         post = frontmatter.Post(
@@ -64,6 +66,11 @@ def write_posts(posts):
         )
 
         print(filename)
+        print(p['created'][:19]+"Z")
+        print(datetime.datetime.fromisoformat(p['created'][:19]+"Z"))
+        print(datetime.datetime.fromisoformat(p['created'][:19]+"Z").strftime('%s'))
+        print(datetime.datetime.fromisoformat(p['created'][:19]+"Z").astimezone(tz))
+        print(datetime.datetime.fromisoformat(p['created'][:19]+"Z").astimezone(tz).strftime('%s'))
         print(post['title'])
         print(post['source'])
 
