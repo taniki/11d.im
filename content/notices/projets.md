@@ -4,6 +4,7 @@ permalink: /projets.html
 status: seed
 ---
 
+- `2025-    ` [Open Terms Archive](https://opentermsarchive.org/)
 - `2024-    ` [wokipydia](https://github.com/taniki/wokipydia)
 - `2023-    ` [write.apreslanu.it](https://write.apreslanu.it)
 - `2023-    ` [données de l'Assemblée Nationale](https://github.com/taniki/assemblee-nationale)
@@ -37,6 +38,8 @@ status: seed
 
 ## jeux de données
 
+- [NSPPolls](https://github.com/nsppolls)
+- [Relevés contributifs des signatures de la pétition contre la Loi Duplomb](https://observablehq.com/@taniki/duplomb-petition-signatures)
 - Élections législatives 2024
 - Archivage des comptes Twitter des candidat·es Rassemblement National
 - Paniers moyens de l'UFC Que Choisir
