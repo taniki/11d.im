@@ -6,16 +6,14 @@ permalink: /now.html
 Cette page est une [`/now` page](https://encemoment.site/).
 L'intention est de donner quelques nouvelles comme si on ne s'était pas vu depuis quelques mois.
 
-## temps partiel
+## protopie.studio
 
-J'en avais marre d'attendre l'adoption de la semaine de 4 jours dans les entreprises.
-J'ai alors profité du dispositif de [congé parental partiel] pour passer en 4/5ème.
-C'est une très bonne décision que j'aimerai raconter.
+Depuis le mois de septembre 2025, je me suis lancé dans l'aventure de l'indépendance.
+Je propose des services en journalisme, analyse et édition de données.
 
-J'hésitais à repasser à plein temps pour des raisons financières alors j'ai coupé la poire en deux.
-Je suis au 9/10ème depuis mai 2025.
-
-[congé parental partiel]: https://www.service-public.fr/particuliers/vosdroits/F2332
+Cet activité est en cours de configuration.
+Je sonde les pistes.
+En ce moment, j'envisage surtout d'intégrer [coopaname](https://www.coopaname.coop/) pour y développer cette activité de façon solidaire.
 
 ## écriture
 
@@ -25,58 +23,26 @@ J'écris par ici :
 - [journal](/journal/)
 - [offload](https://write.apreslanu.it/offload/)
 
+
 ## projets
 
-- liste de tous les [projets et travaux](/projets/)
+- liste de tous les [projets et travaux](/projets/) auxquels je participe
 
-### intégrer une rédaction (indépendante) avant 2027
+### restauration de machines à écrire
 
-Je travaille déjà pour un média indépendant mais côté entreprise.
-Il me semble vital de pouvoir contribuer à l'information à travers mes travaux sur les technologies, le numérique, les données et la visualisation d'information.
-C'est à la fois ma formation et mon expérience.
-
-### coder pour raconter
-
-Je donne un cours de programmation dans le master "Management, Innovation Numérique" à l'Institut Mines-Télécom, le nouveau petit nom de Telecom Paris.
-L'idée générale est d'apprendre à coder pour raconter à travers différents médias comme la visualisation de données, le journalisme de données ou bien le jeu vidéo.
-Le Master est une collaboration entre l'IMT et Sciences-Po.
-J'y retrouve des étudiant·es du médialab.
-
-On y fait du tableur, du python (pandas et matplotlib), du javascript (observable hq/plot/framework) et du markwdown.
-
-### homelab et autohébergement de services numériques
-
-
-## apprentissages
-
-### mathématiques appliquées et informatique
-
-### lire et écrire
-
-- mieux lire
-- écrire de la fiction
-- écrire des articles journalistiques
 
 ## lectures
 
-- [bookwyrm](https://lire.boitam.eu/)
-- [goodreads](https://www.goodreads.com/user_challenges/46907962)
-	- Je vais abandonner progressivement l'usage de ce site. Il a été racheté par Amazon, il y a un bail et il n'a cessé de se dégrader (RIP l'API). Les recommandations étaient souvent pertinents et j'y ai trouvé quelques pépites.
+Pour suivre mes lectures, il est possible de me suivre sur [bookwyrm](https://lire.boitam.eu/).
 
-## jeux vidéos
+Mes chemins de lecture en cours :
 
-J'essaie de finir au moins un jeu par mois ou du moins de me forcer à moins butiner et donc de n'avoir qu'une seule partie en cours à la fois.
-
-- avril 2025 : [Mario and Luigi: Superstar Saga](https://en.wikipedia.org/wiki/Mario_%26_Luigi:_Superstar_Saga) (Gameboy Advance/RG 35XX H)
-	- Abandonné à mi-parcours. La mécanique de jeu repose sur le rythme et la coordination motrice qui sont deux de mes gros points faibles dans la vie.
-- mai 2025 : Cyberpunk 2077 (PC)
-	- Je fais surtout les missions annexes pour me ballader dans un Los Angeles dystopique à défaut de pouvoir rendre visite à ma famille qui y habite. Le propre de ce genre est de permettre une réfléxion sur le capitalisme et l'avenir.
-
-### chemins de lecture
-
-- ~~Simone Weil~~
 - technologie, économie et travail
+- écologie
+- poésie contemporaine
 - inférence causale
+- l'écriture, les cahiers et autres technologies de l'esprit
+
 
 ## clavier
 
