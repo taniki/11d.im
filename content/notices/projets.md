@@ -18,7 +18,7 @@ status: seed
 ---
 
 - `2024     ` [médailles et PIB](https://observablehq.com/@taniki/paris2024-medailles-pib)
-- `2024     ` [scraping des résultats des JO 2024](https://github.com/taniki/paris2024-data)
+- `2024     ` [scraping des résultats des JOP 2024](https://github.com/taniki/paris2024-data)
 - `2024     ` [données des élections législatives 2024](https://github.com/taniki/legislatives-2024)
 - `2023-2024` [paris2024.lol](https://paris2024.lol/)
 - `2022     ` [public data jobboard](https://data-jobboard.netlify.app/)
@@ -40,6 +40,7 @@ status: seed
 
 - [NSPPolls](https://github.com/nsppolls)
 - [Relevés contributifs des signatures de la pétition contre la Loi Duplomb](https://observablehq.com/@taniki/duplomb-petition-signatures)
+- [Médailles des JOP 2024](https://github.com/taniki/paris2024-data)
 - Élections législatives 2024
 - Archivage des comptes Twitter des candidat·es Rassemblement National
 - Paniers moyens de l'UFC Que Choisir
